@@ -1,0 +1,15 @@
+{
+  "name": "uav-rpi-node",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "raspi-io": "^9.0.0",
+    "raspi-serial": "^5.0.0"
+  }
+}

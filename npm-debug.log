@@ -1,0 +1,2086 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'raspi-serial' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 warn package.json uav-rpi-node@0.0.0 No description
+5 warn package.json uav-rpi-node@0.0.0 No repository field.
+6 warn package.json uav-rpi-node@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'raspi-serial', null ]
+9 verbose cache add name=undefined spec="raspi-serial" args=["raspi-serial",null]
+10 verbose parsed url Url {
+10 verbose parsed url   protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'raspi-serial',
+10 verbose parsed url   path: 'raspi-serial',
+10 verbose parsed url   href: 'raspi-serial' }
+11 silly lockFile d18757f1-raspi-serial raspi-serial
+12 verbose lock raspi-serial /home/pi/.npm/d18757f1-raspi-serial.lock
+13 silly lockFile d18757f1-raspi-serial raspi-serial
+14 silly lockFile d18757f1-raspi-serial raspi-serial
+15 verbose addNamed [ 'raspi-serial', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile f1254b41-raspi-serial raspi-serial@
+18 verbose lock raspi-serial@ /home/pi/.npm/f1254b41-raspi-serial.lock
+19 silly addNameRange { name: 'raspi-serial', range: '*', hasData: false }
+20 verbose request where is /raspi-serial
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id f36ab9afa0a9e2c9
+23 verbose url raw /raspi-serial
+24 verbose url resolving [ 'https://registry.npmjs.org/', './raspi-serial' ]
+25 verbose url resolved https://registry.npmjs.org/raspi-serial
+26 verbose request where is https://registry.npmjs.org/raspi-serial
+27 info trying registry request attempt 1 at 3:35:01 AM
+28 verbose etag W/"0c95a09143c49da4997368876d92d61f"
+29 http GET https://registry.npmjs.org/raspi-serial
+30 http 304 https://registry.npmjs.org/raspi-serial
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:01 GMT',
+31 silly registry.get     connection: 'close',
+31 silly registry.get     'set-cookie':
+31 silly registry.get      [ '__cfduid=df179b893b0099a446c63550daa43fc341536784501; expires=Thu, 12-Sep-19 20:35:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+31 silly registry.get     'cf-cache-status': 'HIT',
+31 silly registry.get     'cache-control': 'max-age=300',
+31 silly registry.get     'cf-ray': '4595287fefa98377-BKK',
+31 silly registry.get     etag: '"0c95a09143c49da4997368876d92d61f"',
+31 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+31 silly registry.get     'last-modified': 'Sun, 27 May 2018 13:36:45 GMT',
+31 silly registry.get     vary: 'accept-encoding, accept',
+31 silly registry.get     server: 'cloudflare' } ]
+32 verbose etag https://registry.npmjs.org/raspi-serial from cache
+33 silly addNameRange number 2 { name: 'raspi-serial', range: '*', hasData: true }
+34 silly addNameRange versions [ 'raspi-serial',
+34 silly addNameRange   [ '1.0.0',
+34 silly addNameRange     '1.1.0',
+34 silly addNameRange     '1.2.0',
+34 silly addNameRange     '1.3.0',
+34 silly addNameRange     '1.3.1',
+34 silly addNameRange     '1.4.0',
+34 silly addNameRange     '1.5.0',
+34 silly addNameRange     '2.0.0',
+34 silly addNameRange     '3.0.0',
+34 silly addNameRange     '3.0.1',
+34 silly addNameRange     '3.0.2',
+34 silly addNameRange     '3.0.3',
+34 silly addNameRange     '3.0.4',
+34 silly addNameRange     '3.0.5',
+34 silly addNameRange     '3.1.0',
+34 silly addNameRange     '4.0.0',
+34 silly addNameRange     '5.0.0' ] ]
+35 verbose addNamed [ 'raspi-serial', '5.0.0' ]
+36 verbose addNamed [ '5.0.0', '5.0.0' ]
+37 silly lockFile 6338f622-raspi-serial-5-0-0 raspi-serial@5.0.0
+38 verbose lock raspi-serial@5.0.0 /home/pi/.npm/6338f622-raspi-serial-5-0-0.lock
+39 silly lockFile 6338f622-raspi-serial-5-0-0 raspi-serial@5.0.0
+40 silly lockFile 6338f622-raspi-serial-5-0-0 raspi-serial@5.0.0
+41 silly lockFile f1254b41-raspi-serial raspi-serial@
+42 silly lockFile f1254b41-raspi-serial raspi-serial@
+43 silly resolved [ { name: 'raspi-serial',
+43 silly resolved     version: '5.0.0',
+43 silly resolved     description: 'Provides access to the serial port on the Raspberry Pi as part of the Raspi.js library suite',
+43 silly resolved     main: 'dist/index.js',
+43 silly resolved     types: './declarations/index.d.ts',
+43 silly resolved     dependencies: { 'raspi-peripheral': '^2.0.1', serialport: '^6.2.0' },
+43 silly resolved     devDependencies:
+43 silly resolved      { '@types/node': '^9.6.6',
+43 silly resolved        '@types/raspi-peripheral': '^2.0.0',
+43 silly resolved        '@types/serialport': '^6.0.1',
+43 silly resolved        tslint: '^5.7.0',
+43 silly resolved        typescript: '^2.8.3' },
+43 silly resolved     engines: { node: '>= 6.0.0' },
+43 silly resolved     cpu: [ 'arm' ],
+43 silly resolved     scripts:
+43 silly resolved      { prebuild: 'tslint \'src/**/*.ts\'',
+43 silly resolved        build: 'tsc',
+43 silly resolved        test: 'echo "Error: no test specified" && exit 1' },
+43 silly resolved     repository:
+43 silly resolved      { type: 'git',
+43 silly resolved        url: 'git+https://github.com/nebrius/raspi-serial.git' },
+43 silly resolved     keywords: [ 'nodebots', 'robotics', 'raspberry pi' ],
+43 silly resolved     author: { name: 'Bryan Hughes', email: 'bryan@nebri.us' },
+43 silly resolved     license: 'MIT',
+43 silly resolved     bugs: { url: 'https://github.com/nebrius/raspi-serial/issues' },
+43 silly resolved     homepage: 'https://github.com/nebrius/raspi-serial',
+43 silly resolved     gitHead: '42a71d28fff1cb8422e4e3b5855f7945b574e5b0',
+43 silly resolved     _id: 'raspi-serial@5.0.0',
+43 silly resolved     _npmVersion: '5.7.1',
+43 silly resolved     _nodeVersion: '9.9.0',
+43 silly resolved     _npmUser: { name: 'nebrius', email: 'bryan@nebri.us' },
+43 silly resolved     dist:
+43 silly resolved      { integrity: 'sha512-QjOyDLy5IlEYC1N/UG5hlFl0GUIc2E/7LnIUWz/AlBOL8Tgl5khO5sZyjFgwhf2aVQmxbb9pFGO4S4dAVqZYbg==',
+43 silly resolved        shasum: '766b9912641cc73896eccb017fe80972d0eef5c9',
+43 silly resolved        tarball: 'https://registry.npmjs.org/raspi-serial/-/raspi-serial-5.0.0.tgz',
+43 silly resolved        fileCount: 7,
+43 silly resolved        unpackedSize: 26297,
+43 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa26HrCRA9TVsSAnZWagAATEMP/16XTWK880xpAA+nm/RY\nk7QkCtkj6DPLkBpR7y+YaQ3+a9YOioVkG83G3ENwzTJrFoIWjLDp/n8mnd2r\nn0S7KA1pzcvwMnKA1gCpqsjmvyz/lVbjIjs3hrH/+SyNAo229lG94UAu2P6T\nGTZ22hJ9F9UxW6HuMu6NobXumK2y2DRWtFiRy6m5NFPb8FZNzBUDL7VPAw7g\nOKQYJJTpIfZv5LGjvzNnKmIQ0MRcVfC6tjPlaaKY71PnjXYVlvSPQKjv95A4\n/WLju11GMPgU/5D4Y1yuJie+qKI0h92Csd6rnSGESpro3EmLxIK33Ue8VSzt\n1LRS9WkhSSgwsHeRteQCyptBo+N9nWvNr0byQT99W9Sc6eBBLPnVLVb+SFyi\nz7ckYL8b68LZ82Ejc1KLMLX2DTAIQMx63ZxWsI2ROZ/ZwL2dZEuRg6rUc+7K\nIBMLNIgXUFWcXoahC91scYQmUxOXf9fi+z61+ArOIFHJ2MugmVMLtGt2ClQq\nqMCJWvkZXEGgYXqfLEJGx7iW5sIbASiLvJfAhRnrU44twteKREIeckp/wMJM\nj1SaHcPOJZ6A/5N+/lz74OXJjWG20bqRBcABtaGiRp6ZsTgKWSMNaV5jYndY\nKqu7dfDsTBgQkcFc0rt3hdhGVuBGQzXKGnohi3iZCJFLRvrnEWvnwjdFc5kN\nxfOH\r\n=H+B9\r\n-----END PGP SIGNATURE-----\r\n' },
+43 silly resolved     maintainers: [ [Object] ],
+43 silly resolved     directories: {},
+43 silly resolved     _npmOperationalInternal:
+43 silly resolved      { host: 's3://npm-registry-packages',
+43 silly resolved        tmp: 'tmp/raspi-serial_5.0.0_1524343274011_0.5646557195957937' },
+43 silly resolved     _shasum: '766b9912641cc73896eccb017fe80972d0eef5c9',
+43 silly resolved     _from: 'raspi-serial@',
+43 silly resolved     _resolved: 'https://registry.npmjs.org/raspi-serial/-/raspi-serial-5.0.0.tgz',
+43 silly resolved     readme: 'ERROR: No README data found!' } ]
+44 info install raspi-serial@5.0.0 into /home/pi/uav-rpi-node
+45 info installOne raspi-serial@5.0.0
+46 verbose node_modules/raspi-serial unbuild
+47 verbose tar unpack /home/pi/.npm/raspi-serial/5.0.0/package.tgz
+48 silly lockFile 42b112e4-i-node-node-modules-raspi-serial tar:///home/pi/uav-rpi-node/node_modules/raspi-serial
+49 verbose lock tar:///home/pi/uav-rpi-node/node_modules/raspi-serial /home/pi/.npm/42b112e4-i-node-node-modules-raspi-serial.lock
+50 silly lockFile 1e220449-m-raspi-serial-5-0-0-package-tgz tar:///home/pi/.npm/raspi-serial/5.0.0/package.tgz
+51 verbose lock tar:///home/pi/.npm/raspi-serial/5.0.0/package.tgz /home/pi/.npm/1e220449-m-raspi-serial-5-0-0-package-tgz.lock
+52 silly gunzTarPerm modes [ '755', '644' ]
+53 silly gunzTarPerm extractEntry package.json
+54 silly gunzTarPerm extractEntry CHANGELOG.md
+55 silly gunzTarPerm extractEntry LICENSE
+56 silly gunzTarPerm extractEntry README.md
+57 silly gunzTarPerm extractEntry declarations/index.d.ts
+58 silly gunzTarPerm extractEntry dist/index.js
+59 silly gunzTarPerm extractEntry dist/index.js.map
+60 silly lockFile 42b112e4-i-node-node-modules-raspi-serial tar:///home/pi/uav-rpi-node/node_modules/raspi-serial
+61 silly lockFile 42b112e4-i-node-node-modules-raspi-serial tar:///home/pi/uav-rpi-node/node_modules/raspi-serial
+62 silly lockFile 1e220449-m-raspi-serial-5-0-0-package-tgz tar:///home/pi/.npm/raspi-serial/5.0.0/package.tgz
+63 silly lockFile 1e220449-m-raspi-serial-5-0-0-package-tgz tar:///home/pi/.npm/raspi-serial/5.0.0/package.tgz
+64 info preinstall raspi-serial@5.0.0
+65 verbose readDependencies using package.json deps
+66 verbose readDependencies using package.json deps
+67 verbose cache add [ 'raspi-peripheral@^2.0.1', null ]
+68 verbose cache add name=undefined spec="raspi-peripheral@^2.0.1" args=["raspi-peripheral@^2.0.1",null]
+69 verbose parsed url Url {
+69 verbose parsed url   protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'raspi-peripheral@%5E2.0.1',
+69 verbose parsed url   path: 'raspi-peripheral@%5E2.0.1',
+69 verbose parsed url   href: 'raspi-peripheral@%5E2.0.1' }
+70 verbose cache add [ 'serialport@^6.2.0', null ]
+71 verbose cache add name=undefined spec="serialport@^6.2.0" args=["serialport@^6.2.0",null]
+72 verbose parsed url Url {
+72 verbose parsed url   protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: 'serialport@%5E6.2.0',
+72 verbose parsed url   path: 'serialport@%5E6.2.0',
+72 verbose parsed url   href: 'serialport@%5E6.2.0' }
+73 verbose cache add name="raspi-peripheral" spec="^2.0.1" args=["raspi-peripheral","^2.0.1"]
+74 verbose parsed url Url {
+74 verbose parsed url   protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: '%5E2.0.1',
+74 verbose parsed url   path: '%5E2.0.1',
+74 verbose parsed url   href: '%5E2.0.1' }
+75 verbose addNamed [ 'raspi-peripheral', '^2.0.1' ]
+76 verbose addNamed [ null, '>=2.0.1 <3.0.0' ]
+77 silly lockFile 264775bb-raspi-peripheral-2-0-1 raspi-peripheral@^2.0.1
+78 verbose lock raspi-peripheral@^2.0.1 /home/pi/.npm/264775bb-raspi-peripheral-2-0-1.lock
+79 verbose cache add name="serialport" spec="^6.2.0" args=["serialport","^6.2.0"]
+80 verbose parsed url Url {
+80 verbose parsed url   protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: '%5E6.2.0',
+80 verbose parsed url   path: '%5E6.2.0',
+80 verbose parsed url   href: '%5E6.2.0' }
+81 verbose addNamed [ 'serialport', '^6.2.0' ]
+82 verbose addNamed [ null, '>=6.2.0 <7.0.0' ]
+83 silly lockFile 2b684edd-serialport-6-2-0 serialport@^6.2.0
+84 verbose lock serialport@^6.2.0 /home/pi/.npm/2b684edd-serialport-6-2-0.lock
+85 silly addNameRange { name: 'raspi-peripheral',
+85 silly addNameRange   range: '>=2.0.1 <3.0.0',
+85 silly addNameRange   hasData: false }
+86 silly addNameRange { name: 'serialport', range: '>=6.2.0 <7.0.0', hasData: false }
+87 verbose request where is /raspi-peripheral
+88 verbose request registry https://registry.npmjs.org/
+89 verbose url raw /raspi-peripheral
+90 verbose url resolving [ 'https://registry.npmjs.org/', './raspi-peripheral' ]
+91 verbose url resolved https://registry.npmjs.org/raspi-peripheral
+92 verbose request where is https://registry.npmjs.org/raspi-peripheral
+93 info trying registry request attempt 1 at 3:35:02 AM
+94 verbose etag W/"89ba78be6d9fe2f979bb2c0c1ba4a8d3"
+95 http GET https://registry.npmjs.org/raspi-peripheral
+96 verbose request where is /serialport
+97 verbose request registry https://registry.npmjs.org/
+98 verbose url raw /serialport
+99 verbose url resolving [ 'https://registry.npmjs.org/', './serialport' ]
+100 verbose url resolved https://registry.npmjs.org/serialport
+101 verbose request where is https://registry.npmjs.org/serialport
+102 info trying registry request attempt 1 at 3:35:02 AM
+103 verbose etag "357439364464aeb94e5725e4d60578c4"
+104 http GET https://registry.npmjs.org/serialport
+105 http 304 https://registry.npmjs.org/serialport
+106 silly registry.get cb [ 304,
+106 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:02 GMT',
+106 silly registry.get     connection: 'close',
+106 silly registry.get     'set-cookie':
+106 silly registry.get      [ '__cfduid=dc5d923cf4da30acb5f25e07142dac7bc1536784502; expires=Thu, 12-Sep-19 20:35:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+106 silly registry.get     'cf-cache-status': 'HIT',
+106 silly registry.get     'cache-control': 'max-age=300',
+106 silly registry.get     'cf-ray': '4595288579408377-BKK',
+106 silly registry.get     etag: '"357439364464aeb94e5725e4d60578c4"',
+106 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+106 silly registry.get     'last-modified': 'Wed, 29 Aug 2018 03:46:03 GMT',
+106 silly registry.get     vary: 'accept-encoding, accept',
+106 silly registry.get     'x-amz-meta-rev': '361-23a6888b63445c4247b39fff21f41c6e',
+106 silly registry.get     server: 'cloudflare' } ]
+107 verbose etag https://registry.npmjs.org/serialport from cache
+108 http 304 https://registry.npmjs.org/raspi-peripheral
+109 silly registry.get cb [ 304,
+109 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:02 GMT',
+109 silly registry.get     connection: 'close',
+109 silly registry.get     'set-cookie':
+109 silly registry.get      [ '__cfduid=d11491564dea537ffa50dd526e9baae521536784502; expires=Thu, 12-Sep-19 20:35:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+109 silly registry.get     'cf-cache-status': 'HIT',
+109 silly registry.get     'cache-control': 'max-age=300',
+109 silly registry.get     'cf-ray': '459528857ffc83b3-BKK',
+109 silly registry.get     etag: '"89ba78be6d9fe2f979bb2c0c1ba4a8d3"',
+109 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+109 silly registry.get     'last-modified': 'Sun, 27 May 2018 13:36:44 GMT',
+109 silly registry.get     vary: 'accept-encoding, accept',
+109 silly registry.get     server: 'cloudflare' } ]
+110 verbose etag https://registry.npmjs.org/raspi-peripheral from cache
+111 silly addNameRange number 2 { name: 'serialport', range: '>=6.2.0 <7.0.0', hasData: true }
+112 silly addNameRange versions [ 'serialport',
+112 silly addNameRange   [ '0.1.0',
+112 silly addNameRange     '0.1.1',
+112 silly addNameRange     '0.1.3',
+112 silly addNameRange     '0.2.0',
+112 silly addNameRange     '0.2.2',
+112 silly addNameRange     '0.2.3',
+112 silly addNameRange     '0.2.4',
+112 silly addNameRange     '0.2.5',
+112 silly addNameRange     '0.2.6',
+112 silly addNameRange     '0.2.7',
+112 silly addNameRange     '0.2.8',
+112 silly addNameRange     '0.2.9',
+112 silly addNameRange     '0.3.0',
+112 silly addNameRange     '0.6.0',
+112 silly addNameRange     '0.6.1',
+112 silly addNameRange     '0.6.2',
+112 silly addNameRange     '0.6.3',
+112 silly addNameRange     '0.6.5',
+112 silly addNameRange     '0.6.6',
+112 silly addNameRange     '0.6.7',
+112 silly addNameRange     '0.7.0',
+112 silly addNameRange     '0.7.1',
+112 silly addNameRange     '0.7.2',
+112 silly addNameRange     '0.7.3',
+112 silly addNameRange     '0.7.4',
+112 silly addNameRange     '0.7.5',
+112 silly addNameRange     '1.0.0',
+112 silly addNameRange     '1.0.1',
+112 silly addNameRange     '1.0.2',
+112 silly addNameRange     '1.0.3',
+112 silly addNameRange     '1.0.4',
+112 silly addNameRange     '1.0.5',
+112 silly addNameRange     '1.0.6',
+112 silly addNameRange     '1.0.7',
+112 silly addNameRange     '1.0.8',
+112 silly addNameRange     '1.1.0',
+112 silly addNameRange     '1.1.1',
+112 silly addNameRange     '1.1.3',
+112 silly addNameRange     '1.2.0',
+112 silly addNameRange     '1.2.1',
+112 silly addNameRange     '1.2.2',
+112 silly addNameRange     '1.2.3',
+112 silly addNameRange     '1.2.4',
+112 silly addNameRange     '1.2.5',
+112 silly addNameRange     '1.3.0',
+112 silly addNameRange     '1.3.1',
+112 silly addNameRange     '1.4.0',
+112 silly addNameRange     '1.4.1',
+112 silly addNameRange     '1.4.2',
+112 silly addNameRange     '1.4.5',
+112 silly addNameRange     '1.4.6',
+112 silly addNameRange     '1.4.8',
+112 silly addNameRange     '1.4.9',
+112 silly addNameRange     '1.4.10',
+112 silly addNameRange     '1.5.0',
+112 silly addNameRange     '1.6.1',
+112 silly addNameRange     '1.6.2',
+112 silly addNameRange     '1.6.3',
+112 silly addNameRange     '1.7.0',
+112 silly addNameRange     '1.7.1',
+112 silly addNameRange     '1.7.3',
+112 silly addNameRange     '1.7.4',
+112 silly addNameRange     '2.0.0',
+112 silly addNameRange     '2.0.1',
+112 silly addNameRange     '2.0.2',
+112 silly addNameRange     '2.0.3',
+112 silly addNameRange     '2.0.4',
+112 silly addNameRange     '2.0.5',
+112 silly addNameRange     '2.0.6',
+112 silly addNameRange     '2.0.7-beta1',
+112 silly addNameRange     '2.0.7-beta2',
+112 silly addNameRange     '2.0.7-beta3',
+112 silly addNameRange     '2.0.7-beta4',
+112 silly addNameRange     '2.0.7-beta5',
+112 silly addNameRange     '2.1.0',
+112 silly addNameRange     '2.1.1',
+112 silly addNameRange     '2.1.2',
+112 silly addNameRange     '3.0.0',
+112 silly addNameRange     '3.0.1',
+112 silly addNameRange     '3.1.0',
+112 silly addNameRange     '3.1.1',
+112 silly addNameRange     '3.1.2-beta1',
+112 silly addNameRange     '3.1.2-beta2',
+112 silly addNameRange     '3.1.2-beta3',
+112 silly addNameRange     '3.1.2-beta5',
+112 silly addNameRange     '3.1.2-beta6',
+112 silly addNameRange     '3.1.2-beta7',
+112 silly addNameRange     '3.1.2',
+112 silly addNameRange     '3.2.0-beta1',
+112 silly addNameRange     '4.0.0-beta1',
+112 silly addNameRange     '4.0.0-beta2',
+112 silly addNameRange     '4.0.0-beta3',
+112 silly addNameRange     '4.0.0-beta4',
+112 silly addNameRange     '4.0.0-rc1',
+112 silly addNameRange     '4.0.0',
+112 silly addNameRange     '4.0.1',
+112 silly addNameRange     '5.0.0-beta1',
+112 silly addNameRange     '4.0.2',
+112 silly addNameRange     '4.0.3',
+112 silly addNameRange     '5.0.0-beta2',
+112 silly addNameRange     ... 31 more items ] ]
+113 verbose addNamed [ 'serialport', '6.2.2' ]
+114 verbose addNamed [ '6.2.2', '6.2.2' ]
+115 silly lockFile 2b994fbb-serialport-6-2-2 serialport@6.2.2
+116 verbose lock serialport@6.2.2 /home/pi/.npm/2b994fbb-serialport-6-2-2.lock
+117 silly addNameRange number 2 { name: 'raspi-peripheral',
+117 silly addNameRange   range: '>=2.0.1 <3.0.0',
+117 silly addNameRange   hasData: true }
+118 silly addNameRange versions [ 'raspi-peripheral',
+118 silly addNameRange   [ '1.0.0',
+118 silly addNameRange     '1.0.1',
+118 silly addNameRange     '1.0.2',
+118 silly addNameRange     '1.0.3',
+118 silly addNameRange     '1.0.4',
+118 silly addNameRange     '1.0.5',
+118 silly addNameRange     '1.0.6',
+118 silly addNameRange     '1.0.7',
+118 silly addNameRange     '1.1.0',
+118 silly addNameRange     '1.1.1',
+118 silly addNameRange     '1.2.0',
+118 silly addNameRange     '1.2.1',
+118 silly addNameRange     '1.2.2',
+118 silly addNameRange     '1.3.0',
+118 silly addNameRange     '1.4.0',
+118 silly addNameRange     '1.5.0',
+118 silly addNameRange     '1.5.1',
+118 silly addNameRange     '1.5.2',
+118 silly addNameRange     '1.6.0',
+118 silly addNameRange     '1.6.1',
+118 silly addNameRange     '1.6.2',
+118 silly addNameRange     '1.6.3',
+118 silly addNameRange     '1.6.4',
+118 silly addNameRange     '2.0.0',
+118 silly addNameRange     '2.0.1' ] ]
+119 verbose addNamed [ 'raspi-peripheral', '2.0.1' ]
+120 verbose addNamed [ '2.0.1', '2.0.1' ]
+121 silly lockFile a0f87658-raspi-peripheral-2-0-1 raspi-peripheral@2.0.1
+122 verbose lock raspi-peripheral@2.0.1 /home/pi/.npm/a0f87658-raspi-peripheral-2-0-1.lock
+123 silly lockFile 2b994fbb-serialport-6-2-2 serialport@6.2.2
+124 silly lockFile 2b994fbb-serialport-6-2-2 serialport@6.2.2
+125 silly lockFile 2b684edd-serialport-6-2-0 serialport@^6.2.0
+126 silly lockFile 2b684edd-serialport-6-2-0 serialport@^6.2.0
+127 silly lockFile a0f87658-raspi-peripheral-2-0-1 raspi-peripheral@2.0.1
+128 silly lockFile a0f87658-raspi-peripheral-2-0-1 raspi-peripheral@2.0.1
+129 silly lockFile 264775bb-raspi-peripheral-2-0-1 raspi-peripheral@^2.0.1
+130 silly lockFile 264775bb-raspi-peripheral-2-0-1 raspi-peripheral@^2.0.1
+131 silly resolved [ { name: 'serialport',
+131 silly resolved     version: '6.2.2',
+131 silly resolved     description: 'Node.js package to access serial ports. Linux, OSX and Windows. Welcome your robotic JavaScript overlords. Better yet, program them!',
+131 silly resolved     main: 'lib',
+131 silly resolved     repository:
+131 silly resolved      { type: 'git',
+131 silly resolved        url: 'git://github.com/node-serialport/node-serialport.git' },
+131 silly resolved     keywords:
+131 silly resolved      [ 'ccTalk',
+131 silly resolved        'com port',
+131 silly resolved        'data logging',
+131 silly resolved        'hardware',
+131 silly resolved        'iot',
+131 silly resolved        'johnny-five',
+131 silly resolved        'modem',
+131 silly resolved        'nodebots',
+131 silly resolved        'RFID',
+131 silly resolved        'robotics',
+131 silly resolved        'sensor',
+131 silly resolved        'serial port',
+131 silly resolved        'serial',
+131 silly resolved        'serialport',
+131 silly resolved        'sms gateway',
+131 silly resolved        'sms',
+131 silly resolved        'stream',
+131 silly resolved        'tty',
+131 silly resolved        'UART' ],
+131 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+131 silly resolved     dependencies:
+131 silly resolved      { '@serialport/parser-byte-length': '^1.0.5',
+131 silly resolved        '@serialport/parser-cctalk': '^1.0.5',
+131 silly resolved        '@serialport/parser-delimiter': '^1.0.5',
+131 silly resolved        '@serialport/parser-readline': '^1.0.5',
+131 silly resolved        '@serialport/parser-ready': '^1.0.5',
+131 silly resolved        '@serialport/parser-regex': '^1.0.5',
+131 silly resolved        bindings: '1.3.0',
+131 silly resolved        commander: '^2.13.0',
+131 silly resolved        debug: '^3.1.0',
+131 silly resolved        nan: '^2.9.2',
+131 silly resolved        'prebuild-install': '^4.0.0',
+131 silly resolved        promirepl: '^1.0.1',
+131 silly resolved        'prompt-list': '^3.2.0',
+131 silly resolved        'safe-buffer': '^5.1.2' },
+131 silly resolved     devDependencies:
+131 silly resolved      { '@reconbot/jsdoc-theme': '^1.0.0',
+131 silly resolved        bluebird: '^3.5.0',
+131 silly resolved        cc: '^1.0.1',
+131 silly resolved        chai: '^4.0.2',
+131 silly resolved        'chai-subset': '^1.5.0',
+131 silly resolved        'conventional-changelog-cli': '^2.0.0',
+131 silly resolved        eslint: '^5.0.0',
+131 silly resolved        'eslint-plugin-import': '^2.13.0',
+131 silly resolved        'eslint-plugin-node': '^6.0.1',
+131 silly resolved        'eslint-plugin-promise': '^3.8.0',
+131 silly resolved        istanbul: '^0.4.4',
+131 silly resolved        jsdoc: '^3.5.5',
+131 silly resolved        mocha: '^5.2.0',
+131 silly resolved        prebuild: 'github:reconbot/prebuild#reconbot/build_v8_with_gn',
+131 silly resolved        proxyquire: '^2.0.0',
+131 silly resolved        sinon: '^6.0.1' },
+131 silly resolved     engines: { node: '>=4.0.0' },
+131 silly resolved     bin:
+131 silly resolved      { 'serialport-list': './bin/list.js',
+131 silly resolved        'serialport-repl': './bin/repl.js',
+131 silly resolved        'serialport-term': './bin/terminal.js' },
+131 silly resolved     license: 'MIT',
+131 silly resolved     scripts:
+131 silly resolved      { 'arduino-test': 'TEST_PORT=$(./bin/find-arduino.js) npm test',
+131 silly resolved        changelog: 'conventional-changelog -i CHANGELOG.md -s',
+131 silly resolved        docs: 'jsdoc -c ./.jsdoc.json ',
+131 silly resolved        lint: 'eslint lib test bin examples && cc',
+131 silly resolved        'rebuild-all': 'npm rebuild && node-gyp rebuild',
+131 silly resolved        repl: 'node bin/repl.js',
+131 silly resolved        terminal: 'node bin/terminal.js',
+131 silly resolved        stress: 'mocha --no-timeouts test/arduinoTest/stress.js',
+131 silly resolved        test: 'istanbul cover ./node_modules/mocha/bin/_mocha',
+131 silly resolved        'test:watch': 'mocha -w',
+131 silly resolved        valgrind: 'TEST_PORT=$(./bin/find-arduino.js) valgrind --leak-check=full node test/manual-testing/memory-binding.js',
+131 silly resolved        debugger: 'TEST_PORT=$(./bin/find-arduino.js) node --inspect --debug-brk test/manual-testing/performance.js',
+131 silly resolved        install: 'prebuild-install || node-gyp rebuild',
+131 silly resolved        rebuild: 'prebuild --compile',
+131 silly resolved        prebuild: 'prebuild --all --strip --verbose',
+131 silly resolved        'prebuild-upload': 'prebuild --all --strip --verbose' },
+131 silly resolved     gypfile: true,
+131 silly resolved     cc: { filter: [Array], files: [Array], linelength: '120' },
+131 silly resolved     gitHead: 'eb0b7114d15808273528f05cce21086fcf2d11f7',
+131 silly resolved     bugs:
+131 silly resolved      { url: 'https://github.com/node-serialport/node-serialport/issues' },
+131 silly resolved     homepage: 'https://github.com/node-serialport/node-serialport#readme',
+131 silly resolved     _id: 'serialport@6.2.2',
+131 silly resolved     _npmVersion: '6.2.0',
+131 silly resolved     _nodeVersion: '8.11.3',
+131 silly resolved     _npmUser: { name: 'reconbot', email: 'wizard@roborooter.com' },
+131 silly resolved     dist:
+131 silly resolved      { integrity: 'sha512-BQqTR06ZXKwKB6rUjeANm3aIZo0rqNbQsrQX5zKEDcNY4rxiu5dvdcfIOaAGuZkhW7jAKJsgKC5TjeURtLVuOQ==',
+131 silly resolved        shasum: '75532312571578b060eb29cbdf8f2f3e8ba03063',
+131 silly resolved        tarball: 'https://registry.npmjs.org/serialport/-/serialport-6.2.2.tgz',
+131 silly resolved        fileCount: 38,
+131 silly resolved        unpackedSize: 205564,
+131 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbUrhHCRA9TVsSAnZWagAAyNUP/i/fhqDMbVzqlJkIcpeZ\nAfdsgImpaRCdQZk95FWrdECZPS5vJ8clYoomnMtmiaEd7CQw3oWoiuvsXtYK\nwl9+UY9Jqf/ImJHN1q+7KNv68hE10k2AkFqWOai6ZxVMnB3oLbbFDCmpGfuv\no0ss2ApK6JYWWp286gj/jOZKkF6M3eCnojjzTFRbFlbeOv5o53res6vVNfZB\nBucarGxl9ebZO0KTJGIA5a3xZHyJnGxpMV1lHzjK2mzC+Ruy/flqrIRKVCxq\nXJg6SmTbfeyQcDAFLYrgI9f/pNYju3Io5T8tY/H5bEUvRUX/P06P1puo3RPD\ny5CS9KU5oyWUeFIwuWLAyhCYepCnskOTbep6Uw2n1KhX8/jHLhWXLMrPhMnP\nkiPqaAvWvb3FABzqpnm6P5cIZMiIRi2dtly1m7Zo863OWRx30R81LE3zWAZ8\nf1LJYxoOvon17dnWwyXjhGvvvzDWhv/riViVyOLlDcAzFKQk5wJM8p74jdgN\nVRdufgVaLi3Sws6XIUr2I9so747Ji7d7y0rJsij5ttvO3RaO/BsRTwJKpL56\njDB0vqB3fTBi3Mb6xUQExKYVIgo0Lj3cgj+pvGpRXLAfyln8uOqb1dT6qi/M\nIT0Mc9EU1gSRqfNuCTznEA10MdZJjbsT3PeGRGBBZk3mu+8mYekjvjGCnOy3\n+6EI\r\n=5L6K\r\n-----END PGP SIGNATURE-----\r\n' },
+131 silly resolved     directories: {},
+131 silly resolved     _npmOperationalInternal:
+131 silly resolved      { host: 's3://npm-registry-packages',
+131 silly resolved        tmp: 'tmp/serialport_6.2.2_1532147783767_0.23375792991661237' },
+131 silly resolved     _hasShrinkwrap: false,
+131 silly resolved     _shasum: '75532312571578b060eb29cbdf8f2f3e8ba03063',
+131 silly resolved     _from: 'serialport@^6.2.0',
+131 silly resolved     _resolved: 'https://registry.npmjs.org/serialport/-/serialport-6.2.2.tgz',
+131 silly resolved     readme: 'ERROR: No README data found!' },
+131 silly resolved   { name: 'raspi-peripheral',
+131 silly resolved     version: '2.0.1',
+131 silly resolved     description: 'Provides a base class and pin management functions for the Raspi.js library suite',
+131 silly resolved     main: 'dist/index.js',
+131 silly resolved     types: './declarations/index.d.ts',
+131 silly resolved     devDependencies:
+131 silly resolved      { '@types/node': '^8.0.28',
+131 silly resolved        'jasmine-node': '^1.14.5',
+131 silly resolved        tslint: '^5.7.0',
+131 silly resolved        typescript: '^2.5.2' },
+131 silly resolved     dependencies: { 'raspi-board': '^5.0.0' },
+131 silly resolved     engines: { node: '>= 4.0.0' },
+131 silly resolved     cpu: [ 'arm' ],
+131 silly resolved     scripts:
+131 silly resolved      { prebuild: 'tslint src/**/*.ts',
+131 silly resolved        build: 'tsc',
+131 silly resolved        test: 'jasmine-node test/tests.spec.js' },
+131 silly resolved     repository:
+131 silly resolved      { type: 'git',
+131 silly resolved        url: 'git+https://github.com/nebrius/raspi-peripheral.git' },
+131 silly resolved     keywords: [ 'nodebots', 'robotics', 'raspberry pi' ],
+131 silly resolved     author: { name: 'Bryan Hughes', email: 'bryan@nebri.us' },
+131 silly resolved     license: 'MIT',
+131 silly resolved     bugs: { url: 'https://github.com/nebrius/raspi-peripheral/issues' },
+131 silly resolved     homepage: 'https://github.com/nebrius/raspi-peripheral',
+131 silly resolved     gitHead: 'ecf13483f79187b74163cc536211d7d87db7bef1',
+131 silly resolved     _id: 'raspi-peripheral@2.0.1',
+131 silly resolved     _npmVersion: '5.4.1',
+131 silly resolved     _nodeVersion: '8.2.1',
+131 silly resolved     _npmUser: { name: 'nebrius', email: 'bryan@nebri.us' },
+131 silly resolved     dist:
+131 silly resolved      { integrity: 'sha512-SzCix2YJAVdRhK20aQIzaW/ERUr+Ybrr//iVCk0jcdA3/DjSL54ScM+qf3mOf1QVjWcukvxC1uvjMY94WCSpzg==',
+131 silly resolved        shasum: 'f98032035960982aae911aed7052c6474e531cd9',
+131 silly resolved        tarball: 'https://registry.npmjs.org/raspi-peripheral/-/raspi-peripheral-2.0.1.tgz' },
+131 silly resolved     maintainers: [ [Object] ],
+131 silly resolved     _npmOperationalInternal:
+131 silly resolved      { host: 's3://npm-registry-packages',
+131 silly resolved        tmp: 'tmp/raspi-peripheral-2.0.1.tgz_1505173466371_0.04424239625222981' },
+131 silly resolved     directories: {},
+131 silly resolved     _shasum: 'f98032035960982aae911aed7052c6474e531cd9',
+131 silly resolved     _from: 'raspi-peripheral@^2.0.1',
+131 silly resolved     _resolved: 'https://registry.npmjs.org/raspi-peripheral/-/raspi-peripheral-2.0.1.tgz',
+131 silly resolved     readme: 'ERROR: No README data found!' } ]
+132 info install serialport@6.2.2 into /home/pi/uav-rpi-node/node_modules/raspi-serial
+133 info install raspi-peripheral@2.0.1 into /home/pi/uav-rpi-node/node_modules/raspi-serial
+134 info installOne serialport@6.2.2
+135 info installOne raspi-peripheral@2.0.1
+136 verbose node_modules/raspi-serial/node_modules/serialport unbuild
+137 verbose node_modules/raspi-serial/node_modules/raspi-peripheral unbuild
+138 verbose tar unpack /home/pi/.npm/serialport/6.2.2/package.tgz
+139 silly lockFile a5792a5c-i-serial-node-modules-serialport tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/serialport
+140 verbose lock tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/serialport /home/pi/.npm/a5792a5c-i-serial-node-modules-serialport.lock
+141 silly lockFile d8d568d9-npm-serialport-6-2-2-package-tgz tar:///home/pi/.npm/serialport/6.2.2/package.tgz
+142 verbose lock tar:///home/pi/.npm/serialport/6.2.2/package.tgz /home/pi/.npm/d8d568d9-npm-serialport-6-2-2-package-tgz.lock
+143 verbose tar unpack /home/pi/.npm/raspi-peripheral/2.0.1/package.tgz
+144 silly lockFile 30cfa300-al-node-modules-raspi-peripheral tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral
+145 verbose lock tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral /home/pi/.npm/30cfa300-al-node-modules-raspi-peripheral.lock
+146 silly lockFile 7db2d03e-spi-peripheral-2-0-1-package-tgz tar:///home/pi/.npm/raspi-peripheral/2.0.1/package.tgz
+147 verbose lock tar:///home/pi/.npm/raspi-peripheral/2.0.1/package.tgz /home/pi/.npm/7db2d03e-spi-peripheral-2-0-1-package-tgz.lock
+148 silly gunzTarPerm modes [ '755', '644' ]
+149 silly gunzTarPerm modes [ '755', '644' ]
+150 silly gunzTarPerm extractEntry package.json
+151 silly gunzTarPerm extractEntry package.json
+152 silly gunzTarPerm extractEntry binding.gyp
+153 silly gunzTarPerm extractEntry CHANGELOG.md
+154 silly gunzTarPerm extractEntry CHANGELOG.md
+155 silly gunzTarPerm extractEntry LICENSE
+156 silly gunzTarPerm extractEntry LICENSE
+157 silly gunzTarPerm extractEntry README.md
+158 silly gunzTarPerm extractEntry declarations/index.d.ts
+159 silly gunzTarPerm extractEntry README.md
+160 silly gunzTarPerm extractEntry test.js
+161 silly gunzTarPerm extractEntry bin/echo.js
+162 silly gunzTarPerm extractEntry dist/index.js
+163 silly gunzTarPerm extractEntry dist/index.js.map
+164 silly gunzTarPerm extractEntry bin/find-arduino.js
+165 silly gunzTarPerm extractEntry bin/list.js
+166 silly gunzTarPerm extractEntry bin/repl.js
+167 silly gunzTarPerm extractEntry bin/terminal.js
+168 silly gunzTarPerm extractEntry lib/bindings/auto-detect.js
+169 silly gunzTarPerm extractEntry lib/bindings/base.js
+170 silly gunzTarPerm extractEntry lib/bindings/darwin.js
+171 silly gunzTarPerm extractEntry lib/bindings/linux-list.js
+172 silly gunzTarPerm extractEntry lib/bindings/linux.js
+173 silly gunzTarPerm extractEntry lib/bindings/mock.js
+174 silly gunzTarPerm extractEntry lib/bindings/poller.js
+175 silly gunzTarPerm extractEntry lib/bindings/unix-read.js
+176 silly gunzTarPerm extractEntry lib/bindings/unix-write.js
+177 silly lockFile 30cfa300-al-node-modules-raspi-peripheral tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral
+178 silly lockFile 30cfa300-al-node-modules-raspi-peripheral tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral
+179 silly lockFile 7db2d03e-spi-peripheral-2-0-1-package-tgz tar:///home/pi/.npm/raspi-peripheral/2.0.1/package.tgz
+180 silly lockFile 7db2d03e-spi-peripheral-2-0-1-package-tgz tar:///home/pi/.npm/raspi-peripheral/2.0.1/package.tgz
+181 info preinstall raspi-peripheral@2.0.1
+182 silly gunzTarPerm extractEntry lib/bindings/win32-sn-parser.js
+183 silly gunzTarPerm extractEntry lib/bindings/win32.js
+184 verbose readDependencies using package.json deps
+185 verbose readDependencies using package.json deps
+186 verbose cache add [ 'raspi-board@^5.0.0', null ]
+187 verbose cache add name=undefined spec="raspi-board@^5.0.0" args=["raspi-board@^5.0.0",null]
+188 verbose parsed url Url {
+188 verbose parsed url   protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: 'raspi-board@%5E5.0.0',
+188 verbose parsed url   path: 'raspi-board@%5E5.0.0',
+188 verbose parsed url   href: 'raspi-board@%5E5.0.0' }
+189 verbose cache add name="raspi-board" spec="^5.0.0" args=["raspi-board","^5.0.0"]
+190 verbose parsed url Url {
+190 verbose parsed url   protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: '%5E5.0.0',
+190 verbose parsed url   path: '%5E5.0.0',
+190 verbose parsed url   href: '%5E5.0.0' }
+191 verbose addNamed [ 'raspi-board', '^5.0.0' ]
+192 verbose addNamed [ null, '>=5.0.0 <6.0.0' ]
+193 silly lockFile c006b8db-raspi-board-5-0-0 raspi-board@^5.0.0
+194 verbose lock raspi-board@^5.0.0 /home/pi/.npm/c006b8db-raspi-board-5-0-0.lock
+195 silly addNameRange { name: 'raspi-board', range: '>=5.0.0 <6.0.0', hasData: false }
+196 silly gunzTarPerm extractEntry lib/index.js
+197 silly gunzTarPerm extractEntry lib/parsers.js
+198 verbose request where is /raspi-board
+199 verbose request registry https://registry.npmjs.org/
+200 verbose url raw /raspi-board
+201 verbose url resolving [ 'https://registry.npmjs.org/', './raspi-board' ]
+202 verbose url resolved https://registry.npmjs.org/raspi-board
+203 verbose request where is https://registry.npmjs.org/raspi-board
+204 info trying registry request attempt 1 at 3:35:03 AM
+205 verbose etag W/"8b05c8986233ca42df6e61855ceb2870"
+206 http GET https://registry.npmjs.org/raspi-board
+207 silly gunzTarPerm extractEntry lib/serialport.js
+208 silly gunzTarPerm extractEntry lib/util.js
+209 silly gunzTarPerm extractEntry src/darwin_list.cpp
+210 silly gunzTarPerm extractEntry src/darwin_list.h
+211 silly gunzTarPerm extractEntry src/poller.cpp
+212 silly gunzTarPerm extractEntry src/poller.h
+213 silly gunzTarPerm extractEntry src/serialport_linux.cpp
+214 silly gunzTarPerm extractEntry src/serialport_linux.h
+215 silly gunzTarPerm extractEntry src/serialport_unix.cpp
+216 silly gunzTarPerm extractEntry src/serialport_unix.h
+217 silly gunzTarPerm extractEntry src/serialport_win.cpp
+218 silly gunzTarPerm extractEntry src/serialport_win.h
+219 silly gunzTarPerm extractEntry src/serialport.cpp
+220 silly gunzTarPerm extractEntry src/serialport.h
+221 silly lockFile a5792a5c-i-serial-node-modules-serialport tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/serialport
+222 silly lockFile a5792a5c-i-serial-node-modules-serialport tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/serialport
+223 silly lockFile d8d568d9-npm-serialport-6-2-2-package-tgz tar:///home/pi/.npm/serialport/6.2.2/package.tgz
+224 silly lockFile d8d568d9-npm-serialport-6-2-2-package-tgz tar:///home/pi/.npm/serialport/6.2.2/package.tgz
+225 info preinstall serialport@6.2.2
+226 verbose readDependencies using package.json deps
+227 verbose readDependencies using package.json deps
+228 verbose cache add [ '@serialport/parser-delimiter@^1.0.5', null ]
+229 verbose cache add name=undefined spec="@serialport/parser-delimiter@^1.0.5" args=["@serialport/parser-delimiter@^1.0.5",null]
+230 verbose parsed url Url {
+230 verbose parsed url   protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: '@serialport/parser-delimiter@%5E1.0.5',
+230 verbose parsed url   path: '@serialport/parser-delimiter@%5E1.0.5',
+230 verbose parsed url   href: '@serialport/parser-delimiter@%5E1.0.5' }
+231 verbose cache add name="" spec="serialport/parser-delimiter@^1.0.5" args=["","serialport/parser-delimiter@^1.0.5"]
+232 verbose parsed url Url {
+232 verbose parsed url   protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: 'serialport/parser-delimiter@%5E1.0.5',
+232 verbose parsed url   path: 'serialport/parser-delimiter@%5E1.0.5',
+232 verbose parsed url   href: 'serialport/parser-delimiter@%5E1.0.5' }
+233 verbose cache add [ '@serialport/parser-readline@^1.0.5', null ]
+234 verbose cache add name=undefined spec="@serialport/parser-readline@^1.0.5" args=["@serialport/parser-readline@^1.0.5",null]
+235 verbose parsed url Url {
+235 verbose parsed url   protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: '@serialport/parser-readline@%5E1.0.5',
+235 verbose parsed url   path: '@serialport/parser-readline@%5E1.0.5',
+235 verbose parsed url   href: '@serialport/parser-readline@%5E1.0.5' }
+236 verbose cache add [ '@serialport/parser-ready@^1.0.5', null ]
+237 verbose cache add name=undefined spec="@serialport/parser-ready@^1.0.5" args=["@serialport/parser-ready@^1.0.5",null]
+238 verbose parsed url Url {
+238 verbose parsed url   protocol: null,
+238 verbose parsed url   slashes: null,
+238 verbose parsed url   auth: null,
+238 verbose parsed url   host: null,
+238 verbose parsed url   port: null,
+238 verbose parsed url   hostname: null,
+238 verbose parsed url   hash: null,
+238 verbose parsed url   search: null,
+238 verbose parsed url   query: null,
+238 verbose parsed url   pathname: '@serialport/parser-ready@%5E1.0.5',
+238 verbose parsed url   path: '@serialport/parser-ready@%5E1.0.5',
+238 verbose parsed url   href: '@serialport/parser-ready@%5E1.0.5' }
+239 verbose cache add [ '@serialport/parser-regex@^1.0.5', null ]
+240 verbose cache add name=undefined spec="@serialport/parser-regex@^1.0.5" args=["@serialport/parser-regex@^1.0.5",null]
+241 verbose parsed url Url {
+241 verbose parsed url   protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: '@serialport/parser-regex@%5E1.0.5',
+241 verbose parsed url   path: '@serialport/parser-regex@%5E1.0.5',
+241 verbose parsed url   href: '@serialport/parser-regex@%5E1.0.5' }
+242 verbose cache add [ 'bindings@1.3.0', null ]
+243 verbose cache add name=undefined spec="bindings@1.3.0" args=["bindings@1.3.0",null]
+244 verbose parsed url Url {
+244 verbose parsed url   protocol: null,
+244 verbose parsed url   slashes: null,
+244 verbose parsed url   auth: null,
+244 verbose parsed url   host: null,
+244 verbose parsed url   port: null,
+244 verbose parsed url   hostname: null,
+244 verbose parsed url   hash: null,
+244 verbose parsed url   search: null,
+244 verbose parsed url   query: null,
+244 verbose parsed url   pathname: 'bindings@1.3.0',
+244 verbose parsed url   path: 'bindings@1.3.0',
+244 verbose parsed url   href: 'bindings@1.3.0' }
+245 verbose cache add [ 'commander@^2.13.0', null ]
+246 verbose cache add name=undefined spec="commander@^2.13.0" args=["commander@^2.13.0",null]
+247 verbose parsed url Url {
+247 verbose parsed url   protocol: null,
+247 verbose parsed url   slashes: null,
+247 verbose parsed url   auth: null,
+247 verbose parsed url   host: null,
+247 verbose parsed url   port: null,
+247 verbose parsed url   hostname: null,
+247 verbose parsed url   hash: null,
+247 verbose parsed url   search: null,
+247 verbose parsed url   query: null,
+247 verbose parsed url   pathname: 'commander@%5E2.13.0',
+247 verbose parsed url   path: 'commander@%5E2.13.0',
+247 verbose parsed url   href: 'commander@%5E2.13.0' }
+248 verbose cache add [ 'debug@^3.1.0', null ]
+249 verbose cache add name=undefined spec="debug@^3.1.0" args=["debug@^3.1.0",null]
+250 verbose parsed url Url {
+250 verbose parsed url   protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: 'debug@%5E3.1.0',
+250 verbose parsed url   path: 'debug@%5E3.1.0',
+250 verbose parsed url   href: 'debug@%5E3.1.0' }
+251 verbose cache add [ 'nan@^2.9.2', null ]
+252 verbose cache add name=undefined spec="nan@^2.9.2" args=["nan@^2.9.2",null]
+253 verbose parsed url Url {
+253 verbose parsed url   protocol: null,
+253 verbose parsed url   slashes: null,
+253 verbose parsed url   auth: null,
+253 verbose parsed url   host: null,
+253 verbose parsed url   port: null,
+253 verbose parsed url   hostname: null,
+253 verbose parsed url   hash: null,
+253 verbose parsed url   search: null,
+253 verbose parsed url   query: null,
+253 verbose parsed url   pathname: 'nan@%5E2.9.2',
+253 verbose parsed url   path: 'nan@%5E2.9.2',
+253 verbose parsed url   href: 'nan@%5E2.9.2' }
+254 verbose cache add [ 'prebuild-install@^4.0.0', null ]
+255 verbose cache add name=undefined spec="prebuild-install@^4.0.0" args=["prebuild-install@^4.0.0",null]
+256 verbose parsed url Url {
+256 verbose parsed url   protocol: null,
+256 verbose parsed url   slashes: null,
+256 verbose parsed url   auth: null,
+256 verbose parsed url   host: null,
+256 verbose parsed url   port: null,
+256 verbose parsed url   hostname: null,
+256 verbose parsed url   hash: null,
+256 verbose parsed url   search: null,
+256 verbose parsed url   query: null,
+256 verbose parsed url   pathname: 'prebuild-install@%5E4.0.0',
+256 verbose parsed url   path: 'prebuild-install@%5E4.0.0',
+256 verbose parsed url   href: 'prebuild-install@%5E4.0.0' }
+257 verbose cache add [ 'promirepl@^1.0.1', null ]
+258 verbose cache add name=undefined spec="promirepl@^1.0.1" args=["promirepl@^1.0.1",null]
+259 verbose parsed url Url {
+259 verbose parsed url   protocol: null,
+259 verbose parsed url   slashes: null,
+259 verbose parsed url   auth: null,
+259 verbose parsed url   host: null,
+259 verbose parsed url   port: null,
+259 verbose parsed url   hostname: null,
+259 verbose parsed url   hash: null,
+259 verbose parsed url   search: null,
+259 verbose parsed url   query: null,
+259 verbose parsed url   pathname: 'promirepl@%5E1.0.1',
+259 verbose parsed url   path: 'promirepl@%5E1.0.1',
+259 verbose parsed url   href: 'promirepl@%5E1.0.1' }
+260 verbose cache add [ 'prompt-list@^3.2.0', null ]
+261 verbose cache add name=undefined spec="prompt-list@^3.2.0" args=["prompt-list@^3.2.0",null]
+262 verbose parsed url Url {
+262 verbose parsed url   protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: 'prompt-list@%5E3.2.0',
+262 verbose parsed url   path: 'prompt-list@%5E3.2.0',
+262 verbose parsed url   href: 'prompt-list@%5E3.2.0' }
+263 verbose cache add [ 'safe-buffer@^5.1.2', null ]
+264 verbose cache add name=undefined spec="safe-buffer@^5.1.2" args=["safe-buffer@^5.1.2",null]
+265 verbose parsed url Url {
+265 verbose parsed url   protocol: null,
+265 verbose parsed url   slashes: null,
+265 verbose parsed url   auth: null,
+265 verbose parsed url   host: null,
+265 verbose parsed url   port: null,
+265 verbose parsed url   hostname: null,
+265 verbose parsed url   hash: null,
+265 verbose parsed url   search: null,
+265 verbose parsed url   query: null,
+265 verbose parsed url   pathname: 'safe-buffer@%5E5.1.2',
+265 verbose parsed url   path: 'safe-buffer@%5E5.1.2',
+265 verbose parsed url   href: 'safe-buffer@%5E5.1.2' }
+266 verbose cache add [ '@serialport/parser-byte-length@^1.0.5', null ]
+267 verbose cache add name=undefined spec="@serialport/parser-byte-length@^1.0.5" args=["@serialport/parser-byte-length@^1.0.5",null]
+268 verbose parsed url Url {
+268 verbose parsed url   protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: '@serialport/parser-byte-length@%5E1.0.5',
+268 verbose parsed url   path: '@serialport/parser-byte-length@%5E1.0.5',
+268 verbose parsed url   href: '@serialport/parser-byte-length@%5E1.0.5' }
+269 verbose cache add [ '@serialport/parser-cctalk@^1.0.5', null ]
+270 verbose cache add name=undefined spec="@serialport/parser-cctalk@^1.0.5" args=["@serialport/parser-cctalk@^1.0.5",null]
+271 verbose parsed url Url {
+271 verbose parsed url   protocol: null,
+271 verbose parsed url   slashes: null,
+271 verbose parsed url   auth: null,
+271 verbose parsed url   host: null,
+271 verbose parsed url   port: null,
+271 verbose parsed url   hostname: null,
+271 verbose parsed url   hash: null,
+271 verbose parsed url   search: null,
+271 verbose parsed url   query: null,
+271 verbose parsed url   pathname: '@serialport/parser-cctalk@%5E1.0.5',
+271 verbose parsed url   path: '@serialport/parser-cctalk@%5E1.0.5',
+271 verbose parsed url   href: '@serialport/parser-cctalk@%5E1.0.5' }
+272 verbose cache add name="serialport/parser-delimiter" spec="^1.0.5" args=["serialport/parser-delimiter","^1.0.5"]
+273 verbose parsed url Url {
+273 verbose parsed url   protocol: null,
+273 verbose parsed url   slashes: null,
+273 verbose parsed url   auth: null,
+273 verbose parsed url   host: null,
+273 verbose parsed url   port: null,
+273 verbose parsed url   hostname: null,
+273 verbose parsed url   hash: null,
+273 verbose parsed url   search: null,
+273 verbose parsed url   query: null,
+273 verbose parsed url   pathname: '%5E1.0.5',
+273 verbose parsed url   path: '%5E1.0.5',
+273 verbose parsed url   href: '%5E1.0.5' }
+274 verbose addNamed [ 'serialport/parser-delimiter', '^1.0.5' ]
+275 verbose addNamed [ null, '>=1.0.5 <2.0.0' ]
+276 silly lockFile 9e00658e-erialport-parser-delimiter-1-0-5 serialport/parser-delimiter@^1.0.5
+277 verbose lock serialport/parser-delimiter@^1.0.5 /home/pi/.npm/9e00658e-erialport-parser-delimiter-1-0-5.lock
+278 verbose cache add name="" spec="serialport/parser-readline@^1.0.5" args=["","serialport/parser-readline@^1.0.5"]
+279 verbose parsed url Url {
+279 verbose parsed url   protocol: null,
+279 verbose parsed url   slashes: null,
+279 verbose parsed url   auth: null,
+279 verbose parsed url   host: null,
+279 verbose parsed url   port: null,
+279 verbose parsed url   hostname: null,
+279 verbose parsed url   hash: null,
+279 verbose parsed url   search: null,
+279 verbose parsed url   query: null,
+279 verbose parsed url   pathname: 'serialport/parser-readline@%5E1.0.5',
+279 verbose parsed url   path: 'serialport/parser-readline@%5E1.0.5',
+279 verbose parsed url   href: 'serialport/parser-readline@%5E1.0.5' }
+280 verbose cache add name="" spec="serialport/parser-ready@^1.0.5" args=["","serialport/parser-ready@^1.0.5"]
+281 verbose parsed url Url {
+281 verbose parsed url   protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: 'serialport/parser-ready@%5E1.0.5',
+281 verbose parsed url   path: 'serialport/parser-ready@%5E1.0.5',
+281 verbose parsed url   href: 'serialport/parser-ready@%5E1.0.5' }
+282 verbose cache add name="" spec="serialport/parser-regex@^1.0.5" args=["","serialport/parser-regex@^1.0.5"]
+283 verbose parsed url Url {
+283 verbose parsed url   protocol: null,
+283 verbose parsed url   slashes: null,
+283 verbose parsed url   auth: null,
+283 verbose parsed url   host: null,
+283 verbose parsed url   port: null,
+283 verbose parsed url   hostname: null,
+283 verbose parsed url   hash: null,
+283 verbose parsed url   search: null,
+283 verbose parsed url   query: null,
+283 verbose parsed url   pathname: 'serialport/parser-regex@%5E1.0.5',
+283 verbose parsed url   path: 'serialport/parser-regex@%5E1.0.5',
+283 verbose parsed url   href: 'serialport/parser-regex@%5E1.0.5' }
+284 verbose cache add name="bindings" spec="1.3.0" args=["bindings","1.3.0"]
+285 verbose parsed url Url {
+285 verbose parsed url   protocol: null,
+285 verbose parsed url   slashes: null,
+285 verbose parsed url   auth: null,
+285 verbose parsed url   host: null,
+285 verbose parsed url   port: null,
+285 verbose parsed url   hostname: null,
+285 verbose parsed url   hash: null,
+285 verbose parsed url   search: null,
+285 verbose parsed url   query: null,
+285 verbose parsed url   pathname: '1.3.0',
+285 verbose parsed url   path: '1.3.0',
+285 verbose parsed url   href: '1.3.0' }
+286 verbose addNamed [ 'bindings', '1.3.0' ]
+287 verbose addNamed [ '1.3.0', '1.3.0' ]
+288 silly lockFile e7c26552-bindings-1-3-0 bindings@1.3.0
+289 verbose lock bindings@1.3.0 /home/pi/.npm/e7c26552-bindings-1-3-0.lock
+290 verbose cache add name="commander" spec="^2.13.0" args=["commander","^2.13.0"]
+291 verbose parsed url Url {
+291 verbose parsed url   protocol: null,
+291 verbose parsed url   slashes: null,
+291 verbose parsed url   auth: null,
+291 verbose parsed url   host: null,
+291 verbose parsed url   port: null,
+291 verbose parsed url   hostname: null,
+291 verbose parsed url   hash: null,
+291 verbose parsed url   search: null,
+291 verbose parsed url   query: null,
+291 verbose parsed url   pathname: '%5E2.13.0',
+291 verbose parsed url   path: '%5E2.13.0',
+291 verbose parsed url   href: '%5E2.13.0' }
+292 verbose addNamed [ 'commander', '^2.13.0' ]
+293 verbose addNamed [ null, '>=2.13.0 <3.0.0' ]
+294 silly lockFile 46a91646-commander-2-13-0 commander@^2.13.0
+295 verbose lock commander@^2.13.0 /home/pi/.npm/46a91646-commander-2-13-0.lock
+296 verbose cache add name="debug" spec="^3.1.0" args=["debug","^3.1.0"]
+297 verbose parsed url Url {
+297 verbose parsed url   protocol: null,
+297 verbose parsed url   slashes: null,
+297 verbose parsed url   auth: null,
+297 verbose parsed url   host: null,
+297 verbose parsed url   port: null,
+297 verbose parsed url   hostname: null,
+297 verbose parsed url   hash: null,
+297 verbose parsed url   search: null,
+297 verbose parsed url   query: null,
+297 verbose parsed url   pathname: '%5E3.1.0',
+297 verbose parsed url   path: '%5E3.1.0',
+297 verbose parsed url   href: '%5E3.1.0' }
+298 verbose addNamed [ 'debug', '^3.1.0' ]
+299 verbose addNamed [ null, '>=3.1.0 <4.0.0' ]
+300 silly lockFile 3b0d9689-debug-3-1-0 debug@^3.1.0
+301 verbose lock debug@^3.1.0 /home/pi/.npm/3b0d9689-debug-3-1-0.lock
+302 verbose cache add name="nan" spec="^2.9.2" args=["nan","^2.9.2"]
+303 verbose parsed url Url {
+303 verbose parsed url   protocol: null,
+303 verbose parsed url   slashes: null,
+303 verbose parsed url   auth: null,
+303 verbose parsed url   host: null,
+303 verbose parsed url   port: null,
+303 verbose parsed url   hostname: null,
+303 verbose parsed url   hash: null,
+303 verbose parsed url   search: null,
+303 verbose parsed url   query: null,
+303 verbose parsed url   pathname: '%5E2.9.2',
+303 verbose parsed url   path: '%5E2.9.2',
+303 verbose parsed url   href: '%5E2.9.2' }
+304 verbose addNamed [ 'nan', '^2.9.2' ]
+305 verbose addNamed [ null, '>=2.9.2 <3.0.0' ]
+306 silly lockFile ccc179b8-nan-2-9-2 nan@^2.9.2
+307 verbose lock nan@^2.9.2 /home/pi/.npm/ccc179b8-nan-2-9-2.lock
+308 verbose cache add name="prebuild-install" spec="^4.0.0" args=["prebuild-install","^4.0.0"]
+309 verbose parsed url Url {
+309 verbose parsed url   protocol: null,
+309 verbose parsed url   slashes: null,
+309 verbose parsed url   auth: null,
+309 verbose parsed url   host: null,
+309 verbose parsed url   port: null,
+309 verbose parsed url   hostname: null,
+309 verbose parsed url   hash: null,
+309 verbose parsed url   search: null,
+309 verbose parsed url   query: null,
+309 verbose parsed url   pathname: '%5E4.0.0',
+309 verbose parsed url   path: '%5E4.0.0',
+309 verbose parsed url   href: '%5E4.0.0' }
+310 verbose addNamed [ 'prebuild-install', '^4.0.0' ]
+311 verbose addNamed [ null, '>=4.0.0 <5.0.0' ]
+312 silly lockFile bf48774a-prebuild-install-4-0-0 prebuild-install@^4.0.0
+313 verbose lock prebuild-install@^4.0.0 /home/pi/.npm/bf48774a-prebuild-install-4-0-0.lock
+314 verbose cache add name="promirepl" spec="^1.0.1" args=["promirepl","^1.0.1"]
+315 verbose parsed url Url {
+315 verbose parsed url   protocol: null,
+315 verbose parsed url   slashes: null,
+315 verbose parsed url   auth: null,
+315 verbose parsed url   host: null,
+315 verbose parsed url   port: null,
+315 verbose parsed url   hostname: null,
+315 verbose parsed url   hash: null,
+315 verbose parsed url   search: null,
+315 verbose parsed url   query: null,
+315 verbose parsed url   pathname: '%5E1.0.1',
+315 verbose parsed url   path: '%5E1.0.1',
+315 verbose parsed url   href: '%5E1.0.1' }
+316 verbose addNamed [ 'promirepl', '^1.0.1' ]
+317 verbose addNamed [ null, '>=1.0.1 <2.0.0' ]
+318 silly lockFile db03ce13-promirepl-1-0-1 promirepl@^1.0.1
+319 verbose lock promirepl@^1.0.1 /home/pi/.npm/db03ce13-promirepl-1-0-1.lock
+320 verbose cache add name="prompt-list" spec="^3.2.0" args=["prompt-list","^3.2.0"]
+321 verbose parsed url Url {
+321 verbose parsed url   protocol: null,
+321 verbose parsed url   slashes: null,
+321 verbose parsed url   auth: null,
+321 verbose parsed url   host: null,
+321 verbose parsed url   port: null,
+321 verbose parsed url   hostname: null,
+321 verbose parsed url   hash: null,
+321 verbose parsed url   search: null,
+321 verbose parsed url   query: null,
+321 verbose parsed url   pathname: '%5E3.2.0',
+321 verbose parsed url   path: '%5E3.2.0',
+321 verbose parsed url   href: '%5E3.2.0' }
+322 verbose addNamed [ 'prompt-list', '^3.2.0' ]
+323 verbose addNamed [ null, '>=3.2.0 <4.0.0' ]
+324 silly lockFile dd2478c1-prompt-list-3-2-0 prompt-list@^3.2.0
+325 verbose lock prompt-list@^3.2.0 /home/pi/.npm/dd2478c1-prompt-list-3-2-0.lock
+326 verbose cache add name="safe-buffer" spec="^5.1.2" args=["safe-buffer","^5.1.2"]
+327 verbose parsed url Url {
+327 verbose parsed url   protocol: null,
+327 verbose parsed url   slashes: null,
+327 verbose parsed url   auth: null,
+327 verbose parsed url   host: null,
+327 verbose parsed url   port: null,
+327 verbose parsed url   hostname: null,
+327 verbose parsed url   hash: null,
+327 verbose parsed url   search: null,
+327 verbose parsed url   query: null,
+327 verbose parsed url   pathname: '%5E5.1.2',
+327 verbose parsed url   path: '%5E5.1.2',
+327 verbose parsed url   href: '%5E5.1.2' }
+328 verbose addNamed [ 'safe-buffer', '^5.1.2' ]
+329 verbose addNamed [ null, '>=5.1.2 <6.0.0' ]
+330 silly lockFile f5bda6da-safe-buffer-5-1-2 safe-buffer@^5.1.2
+331 verbose lock safe-buffer@^5.1.2 /home/pi/.npm/f5bda6da-safe-buffer-5-1-2.lock
+332 verbose cache add name="" spec="serialport/parser-byte-length@^1.0.5" args=["","serialport/parser-byte-length@^1.0.5"]
+333 verbose parsed url Url {
+333 verbose parsed url   protocol: null,
+333 verbose parsed url   slashes: null,
+333 verbose parsed url   auth: null,
+333 verbose parsed url   host: null,
+333 verbose parsed url   port: null,
+333 verbose parsed url   hostname: null,
+333 verbose parsed url   hash: null,
+333 verbose parsed url   search: null,
+333 verbose parsed url   query: null,
+333 verbose parsed url   pathname: 'serialport/parser-byte-length@%5E1.0.5',
+333 verbose parsed url   path: 'serialport/parser-byte-length@%5E1.0.5',
+333 verbose parsed url   href: 'serialport/parser-byte-length@%5E1.0.5' }
+334 verbose cache add name="" spec="serialport/parser-cctalk@^1.0.5" args=["","serialport/parser-cctalk@^1.0.5"]
+335 verbose parsed url Url {
+335 verbose parsed url   protocol: null,
+335 verbose parsed url   slashes: null,
+335 verbose parsed url   auth: null,
+335 verbose parsed url   host: null,
+335 verbose parsed url   port: null,
+335 verbose parsed url   hostname: null,
+335 verbose parsed url   hash: null,
+335 verbose parsed url   search: null,
+335 verbose parsed url   query: null,
+335 verbose parsed url   pathname: 'serialport/parser-cctalk@%5E1.0.5',
+335 verbose parsed url   path: 'serialport/parser-cctalk@%5E1.0.5',
+335 verbose parsed url   href: 'serialport/parser-cctalk@%5E1.0.5' }
+336 verbose cache add name="serialport/parser-readline" spec="^1.0.5" args=["serialport/parser-readline","^1.0.5"]
+337 verbose parsed url Url {
+337 verbose parsed url   protocol: null,
+337 verbose parsed url   slashes: null,
+337 verbose parsed url   auth: null,
+337 verbose parsed url   host: null,
+337 verbose parsed url   port: null,
+337 verbose parsed url   hostname: null,
+337 verbose parsed url   hash: null,
+337 verbose parsed url   search: null,
+337 verbose parsed url   query: null,
+337 verbose parsed url   pathname: '%5E1.0.5',
+337 verbose parsed url   path: '%5E1.0.5',
+337 verbose parsed url   href: '%5E1.0.5' }
+338 verbose addNamed [ 'serialport/parser-readline', '^1.0.5' ]
+339 verbose addNamed [ null, '>=1.0.5 <2.0.0' ]
+340 silly lockFile 77d83616-serialport-parser-readline-1-0-5 serialport/parser-readline@^1.0.5
+341 verbose lock serialport/parser-readline@^1.0.5 /home/pi/.npm/77d83616-serialport-parser-readline-1-0-5.lock
+342 verbose cache add name="serialport/parser-ready" spec="^1.0.5" args=["serialport/parser-ready","^1.0.5"]
+343 verbose parsed url Url {
+343 verbose parsed url   protocol: null,
+343 verbose parsed url   slashes: null,
+343 verbose parsed url   auth: null,
+343 verbose parsed url   host: null,
+343 verbose parsed url   port: null,
+343 verbose parsed url   hostname: null,
+343 verbose parsed url   hash: null,
+343 verbose parsed url   search: null,
+343 verbose parsed url   query: null,
+343 verbose parsed url   pathname: '%5E1.0.5',
+343 verbose parsed url   path: '%5E1.0.5',
+343 verbose parsed url   href: '%5E1.0.5' }
+344 verbose addNamed [ 'serialport/parser-ready', '^1.0.5' ]
+345 verbose addNamed [ null, '>=1.0.5 <2.0.0' ]
+346 silly lockFile f757c8a6-serialport-parser-ready-1-0-5 serialport/parser-ready@^1.0.5
+347 verbose lock serialport/parser-ready@^1.0.5 /home/pi/.npm/f757c8a6-serialport-parser-ready-1-0-5.lock
+348 verbose cache add name="serialport/parser-regex" spec="^1.0.5" args=["serialport/parser-regex","^1.0.5"]
+349 verbose parsed url Url {
+349 verbose parsed url   protocol: null,
+349 verbose parsed url   slashes: null,
+349 verbose parsed url   auth: null,
+349 verbose parsed url   host: null,
+349 verbose parsed url   port: null,
+349 verbose parsed url   hostname: null,
+349 verbose parsed url   hash: null,
+349 verbose parsed url   search: null,
+349 verbose parsed url   query: null,
+349 verbose parsed url   pathname: '%5E1.0.5',
+349 verbose parsed url   path: '%5E1.0.5',
+349 verbose parsed url   href: '%5E1.0.5' }
+350 verbose addNamed [ 'serialport/parser-regex', '^1.0.5' ]
+351 verbose addNamed [ null, '>=1.0.5 <2.0.0' ]
+352 silly lockFile 470fe212-serialport-parser-regex-1-0-5 serialport/parser-regex@^1.0.5
+353 verbose lock serialport/parser-regex@^1.0.5 /home/pi/.npm/470fe212-serialport-parser-regex-1-0-5.lock
+354 verbose cache add name="serialport/parser-byte-length" spec="^1.0.5" args=["serialport/parser-byte-length","^1.0.5"]
+355 verbose parsed url Url {
+355 verbose parsed url   protocol: null,
+355 verbose parsed url   slashes: null,
+355 verbose parsed url   auth: null,
+355 verbose parsed url   host: null,
+355 verbose parsed url   port: null,
+355 verbose parsed url   hostname: null,
+355 verbose parsed url   hash: null,
+355 verbose parsed url   search: null,
+355 verbose parsed url   query: null,
+355 verbose parsed url   pathname: '%5E1.0.5',
+355 verbose parsed url   path: '%5E1.0.5',
+355 verbose parsed url   href: '%5E1.0.5' }
+356 verbose addNamed [ 'serialport/parser-byte-length', '^1.0.5' ]
+357 verbose addNamed [ null, '>=1.0.5 <2.0.0' ]
+358 silly lockFile c82d8a75-ialport-parser-byte-length-1-0-5 serialport/parser-byte-length@^1.0.5
+359 verbose lock serialport/parser-byte-length@^1.0.5 /home/pi/.npm/c82d8a75-ialport-parser-byte-length-1-0-5.lock
+360 verbose cache add name="serialport/parser-cctalk" spec="^1.0.5" args=["serialport/parser-cctalk","^1.0.5"]
+361 verbose parsed url Url {
+361 verbose parsed url   protocol: null,
+361 verbose parsed url   slashes: null,
+361 verbose parsed url   auth: null,
+361 verbose parsed url   host: null,
+361 verbose parsed url   port: null,
+361 verbose parsed url   hostname: null,
+361 verbose parsed url   hash: null,
+361 verbose parsed url   search: null,
+361 verbose parsed url   query: null,
+361 verbose parsed url   pathname: '%5E1.0.5',
+361 verbose parsed url   path: '%5E1.0.5',
+361 verbose parsed url   href: '%5E1.0.5' }
+362 verbose addNamed [ 'serialport/parser-cctalk', '^1.0.5' ]
+363 verbose addNamed [ null, '>=1.0.5 <2.0.0' ]
+364 silly lockFile 61a13812-serialport-parser-cctalk-1-0-5 serialport/parser-cctalk@^1.0.5
+365 verbose lock serialport/parser-cctalk@^1.0.5 /home/pi/.npm/61a13812-serialport-parser-cctalk-1-0-5.lock
+366 http 304 https://registry.npmjs.org/raspi-board
+367 silly registry.get cb [ 304,
+367 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:03 GMT',
+367 silly registry.get     connection: 'close',
+367 silly registry.get     'set-cookie':
+367 silly registry.get      [ '__cfduid=dd13574283b35af619e836497adeff6181536784503; expires=Thu, 12-Sep-19 20:35:03 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+367 silly registry.get     'cf-cache-status': 'HIT',
+367 silly registry.get     'cache-control': 'max-age=300',
+367 silly registry.get     'cf-ray': '4595288a7af58395-BKK',
+367 silly registry.get     etag: '"8b05c8986233ca42df6e61855ceb2870"',
+367 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+367 silly registry.get     'last-modified': 'Tue, 12 Jun 2018 21:23:52 GMT',
+367 silly registry.get     vary: 'accept-encoding, accept',
+367 silly registry.get     server: 'cloudflare' } ]
+368 verbose etag https://registry.npmjs.org/raspi-board from cache
+369 silly addNameRange { name: 'serialport/parser-delimiter',
+369 silly addNameRange   range: '>=1.0.5 <2.0.0',
+369 silly addNameRange   hasData: false }
+370 silly addNameRange { name: 'commander', range: '>=2.13.0 <3.0.0', hasData: false }
+371 silly addNameRange { name: 'debug', range: '>=3.1.0 <4.0.0', hasData: false }
+372 silly addNameRange { name: 'nan', range: '>=2.9.2 <3.0.0', hasData: false }
+373 silly addNameRange { name: 'prebuild-install',
+373 silly addNameRange   range: '>=4.0.0 <5.0.0',
+373 silly addNameRange   hasData: false }
+374 silly addNameRange { name: 'promirepl', range: '>=1.0.1 <2.0.0', hasData: false }
+375 silly addNameRange { name: 'prompt-list', range: '>=3.2.0 <4.0.0', hasData: false }
+376 silly addNameRange { name: 'safe-buffer', range: '>=5.1.2 <6.0.0', hasData: false }
+377 silly addNameRange { name: 'serialport/parser-readline',
+377 silly addNameRange   range: '>=1.0.5 <2.0.0',
+377 silly addNameRange   hasData: false }
+378 silly addNameRange { name: 'serialport/parser-ready',
+378 silly addNameRange   range: '>=1.0.5 <2.0.0',
+378 silly addNameRange   hasData: false }
+379 silly addNameRange { name: 'serialport/parser-regex',
+379 silly addNameRange   range: '>=1.0.5 <2.0.0',
+379 silly addNameRange   hasData: false }
+380 silly addNameRange { name: 'serialport/parser-byte-length',
+380 silly addNameRange   range: '>=1.0.5 <2.0.0',
+380 silly addNameRange   hasData: false }
+381 silly addNameRange { name: 'serialport/parser-cctalk',
+381 silly addNameRange   range: '>=1.0.5 <2.0.0',
+381 silly addNameRange   hasData: false }
+382 verbose request where is /serialport/parser-delimiter
+383 verbose request registry https://registry.npmjs.org/
+384 verbose url raw /serialport/parser-delimiter
+385 verbose url resolving [ 'https://registry.npmjs.org/',
+385 verbose url resolving   './serialport/parser-delimiter' ]
+386 verbose url resolved https://registry.npmjs.org/serialport/parser-delimiter
+387 verbose request where is https://registry.npmjs.org/serialport/parser-delimiter
+388 info trying registry request attempt 1 at 3:35:03 AM
+389 http GET https://registry.npmjs.org/serialport/parser-delimiter
+390 verbose request where is /bindings
+391 verbose request registry https://registry.npmjs.org/
+392 verbose url raw /bindings
+393 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+394 verbose url resolved https://registry.npmjs.org/bindings
+395 verbose request where is https://registry.npmjs.org/bindings
+396 info trying registry request attempt 1 at 3:35:03 AM
+397 verbose etag W/"032d1e4fd790b7bf3a22d4035271b1a6"
+398 http GET https://registry.npmjs.org/bindings
+399 verbose request where is /commander
+400 verbose request registry https://registry.npmjs.org/
+401 verbose url raw /commander
+402 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+403 verbose url resolved https://registry.npmjs.org/commander
+404 verbose request where is https://registry.npmjs.org/commander
+405 info trying registry request attempt 1 at 3:35:03 AM
+406 verbose etag W/"0f219c231fddab681f192facede64078"
+407 http GET https://registry.npmjs.org/commander
+408 verbose request where is /debug
+409 verbose request registry https://registry.npmjs.org/
+410 verbose url raw /debug
+411 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+412 verbose url resolved https://registry.npmjs.org/debug
+413 verbose request where is https://registry.npmjs.org/debug
+414 info trying registry request attempt 1 at 3:35:03 AM
+415 verbose etag W/"519fa9eb4eadccc1cf1b59c83a1bb903"
+416 http GET https://registry.npmjs.org/debug
+417 verbose request where is /nan
+418 verbose request registry https://registry.npmjs.org/
+419 verbose url raw /nan
+420 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+421 verbose url resolved https://registry.npmjs.org/nan
+422 verbose request where is https://registry.npmjs.org/nan
+423 info trying registry request attempt 1 at 3:35:03 AM
+424 verbose etag W/"07b67d31eac50b501e4eb4f5b0dcc2f1"
+425 http GET https://registry.npmjs.org/nan
+426 verbose request where is /prebuild-install
+427 verbose request registry https://registry.npmjs.org/
+428 verbose url raw /prebuild-install
+429 verbose url resolving [ 'https://registry.npmjs.org/', './prebuild-install' ]
+430 verbose url resolved https://registry.npmjs.org/prebuild-install
+431 verbose request where is https://registry.npmjs.org/prebuild-install
+432 info trying registry request attempt 1 at 3:35:03 AM
+433 verbose etag W/"56e649316ddc3d69242317a76323af7d"
+434 http GET https://registry.npmjs.org/prebuild-install
+435 verbose request where is /promirepl
+436 verbose request registry https://registry.npmjs.org/
+437 verbose url raw /promirepl
+438 verbose url resolving [ 'https://registry.npmjs.org/', './promirepl' ]
+439 verbose url resolved https://registry.npmjs.org/promirepl
+440 verbose request where is https://registry.npmjs.org/promirepl
+441 info trying registry request attempt 1 at 3:35:03 AM
+442 verbose etag W/"068fac83c636cafc9de013a5380b74ff"
+443 http GET https://registry.npmjs.org/promirepl
+444 verbose request where is /prompt-list
+445 verbose request registry https://registry.npmjs.org/
+446 verbose url raw /prompt-list
+447 verbose url resolving [ 'https://registry.npmjs.org/', './prompt-list' ]
+448 verbose url resolved https://registry.npmjs.org/prompt-list
+449 verbose request where is https://registry.npmjs.org/prompt-list
+450 info trying registry request attempt 1 at 3:35:03 AM
+451 verbose etag W/"b509802804880672e83385323486493e"
+452 http GET https://registry.npmjs.org/prompt-list
+453 verbose request where is /safe-buffer
+454 verbose request registry https://registry.npmjs.org/
+455 verbose url raw /safe-buffer
+456 verbose url resolving [ 'https://registry.npmjs.org/', './safe-buffer' ]
+457 verbose url resolved https://registry.npmjs.org/safe-buffer
+458 verbose request where is https://registry.npmjs.org/safe-buffer
+459 info trying registry request attempt 1 at 3:35:03 AM
+460 verbose etag W/"07ec7479fe6b127e352416b3d45167a8"
+461 http GET https://registry.npmjs.org/safe-buffer
+462 verbose request where is /serialport/parser-readline
+463 verbose request registry https://registry.npmjs.org/
+464 verbose url raw /serialport/parser-readline
+465 verbose url resolving [ 'https://registry.npmjs.org/',
+465 verbose url resolving   './serialport/parser-readline' ]
+466 verbose url resolved https://registry.npmjs.org/serialport/parser-readline
+467 verbose request where is https://registry.npmjs.org/serialport/parser-readline
+468 info trying registry request attempt 1 at 3:35:03 AM
+469 http GET https://registry.npmjs.org/serialport/parser-readline
+470 verbose request where is /serialport/parser-ready
+471 verbose request registry https://registry.npmjs.org/
+472 verbose url raw /serialport/parser-ready
+473 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/parser-ready' ]
+474 verbose url resolved https://registry.npmjs.org/serialport/parser-ready
+475 verbose request where is https://registry.npmjs.org/serialport/parser-ready
+476 info trying registry request attempt 1 at 3:35:03 AM
+477 http GET https://registry.npmjs.org/serialport/parser-ready
+478 verbose request where is /serialport/parser-regex
+479 verbose request registry https://registry.npmjs.org/
+480 verbose url raw /serialport/parser-regex
+481 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/parser-regex' ]
+482 verbose url resolved https://registry.npmjs.org/serialport/parser-regex
+483 verbose request where is https://registry.npmjs.org/serialport/parser-regex
+484 info trying registry request attempt 1 at 3:35:03 AM
+485 http GET https://registry.npmjs.org/serialport/parser-regex
+486 verbose request where is /serialport/parser-byte-length
+487 verbose request registry https://registry.npmjs.org/
+488 verbose url raw /serialport/parser-byte-length
+489 verbose url resolving [ 'https://registry.npmjs.org/',
+489 verbose url resolving   './serialport/parser-byte-length' ]
+490 verbose url resolved https://registry.npmjs.org/serialport/parser-byte-length
+491 verbose request where is https://registry.npmjs.org/serialport/parser-byte-length
+492 info trying registry request attempt 1 at 3:35:03 AM
+493 http GET https://registry.npmjs.org/serialport/parser-byte-length
+494 verbose request where is /serialport/parser-cctalk
+495 verbose request registry https://registry.npmjs.org/
+496 verbose url raw /serialport/parser-cctalk
+497 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/parser-cctalk' ]
+498 verbose url resolved https://registry.npmjs.org/serialport/parser-cctalk
+499 verbose request where is https://registry.npmjs.org/serialport/parser-cctalk
+500 info trying registry request attempt 1 at 3:35:03 AM
+501 http GET https://registry.npmjs.org/serialport/parser-cctalk
+502 silly addNameRange number 2 { name: 'raspi-board', range: '>=5.0.0 <6.0.0', hasData: true }
+503 silly addNameRange versions [ 'raspi-board',
+503 silly addNameRange   [ '1.0.0',
+503 silly addNameRange     '1.0.1',
+503 silly addNameRange     '1.0.2',
+503 silly addNameRange     '1.1.0',
+503 silly addNameRange     '1.1.1',
+503 silly addNameRange     '1.1.2',
+503 silly addNameRange     '1.2.0',
+503 silly addNameRange     '1.2.1',
+503 silly addNameRange     '1.2.2',
+503 silly addNameRange     '1.3.0',
+503 silly addNameRange     '2.0.0',
+503 silly addNameRange     '2.1.0',
+503 silly addNameRange     '2.1.1',
+503 silly addNameRange     '2.1.2',
+503 silly addNameRange     '2.1.3',
+503 silly addNameRange     '2.2.1',
+503 silly addNameRange     '2.2.2',
+503 silly addNameRange     '2.3.0',
+503 silly addNameRange     '2.4.0',
+503 silly addNameRange     '2.4.1',
+503 silly addNameRange     '3.0.0',
+503 silly addNameRange     '3.1.0',
+503 silly addNameRange     '3.2.0',
+503 silly addNameRange     '4.0.0',
+503 silly addNameRange     '4.0.1',
+503 silly addNameRange     '4.0.2',
+503 silly addNameRange     '4.1.0',
+503 silly addNameRange     '4.2.0',
+503 silly addNameRange     '5.0.0',
+503 silly addNameRange     '5.0.1',
+503 silly addNameRange     '5.0.2',
+503 silly addNameRange     '5.1.0',
+503 silly addNameRange     '5.2.0',
+503 silly addNameRange     '5.3.0',
+503 silly addNameRange     '5.3.1' ] ]
+504 verbose addNamed [ 'raspi-board', '5.3.1' ]
+505 verbose addNamed [ '5.3.1', '5.3.1' ]
+506 silly lockFile 5c60b281-raspi-board-5-3-1 raspi-board@5.3.1
+507 verbose lock raspi-board@5.3.1 /home/pi/.npm/5c60b281-raspi-board-5-3-1.lock
+508 silly lockFile 5c60b281-raspi-board-5-3-1 raspi-board@5.3.1
+509 silly lockFile 5c60b281-raspi-board-5-3-1 raspi-board@5.3.1
+510 silly lockFile c006b8db-raspi-board-5-0-0 raspi-board@^5.0.0
+511 silly lockFile c006b8db-raspi-board-5-0-0 raspi-board@^5.0.0
+512 silly resolved [ { name: 'raspi-board',
+512 silly resolved     version: '5.3.1',
+512 silly resolved     description: 'Pin mapping functionality for the Raspberry Pi in Node.js',
+512 silly resolved     main: './dist/index.js',
+512 silly resolved     types: './declarations/index.d.ts',
+512 silly resolved     scripts:
+512 silly resolved      { prebuild: 'tslint \'src/**/*.ts\'',
+512 silly resolved        build: 'tsc',
+512 silly resolved        test: 'node test/runner.js' },
+512 silly resolved     devDependencies:
+512 silly resolved      { '@types/node': '^9.6.6',
+512 silly resolved        nodeunit: '^0.11.1',
+512 silly resolved        tslint: '^5.9.1',
+512 silly resolved        typescript: '^2.8.3' },
+512 silly resolved     engines: { node: '>= 4.0.0' },
+512 silly resolved     cpu: [ 'arm' ],
+512 silly resolved     repository:
+512 silly resolved      { type: 'git',
+512 silly resolved        url: 'git+https://github.com/nebrius/raspi-board.git' },
+512 silly resolved     keywords: [ 'nodebots', 'robotics', 'raspberry pi' ],
+512 silly resolved     author: { name: 'Bryan Hughes', email: 'bryan@nebri.us' },
+512 silly resolved     license: 'MIT',
+512 silly resolved     bugs: { url: 'https://github.com/nebrius/raspi-board/issues' },
+512 silly resolved     homepage: 'https://github.com/nebrius/raspi-board',
+512 silly resolved     gitHead: 'c4b4809e0bcfd6fb95e879b929f9d2eaec22003c',
+512 silly resolved     _id: 'raspi-board@5.3.1',
+512 silly resolved     _npmVersion: '6.1.0',
+512 silly resolved     _nodeVersion: '10.4.0',
+512 silly resolved     _npmUser: { name: 'nebrius', email: 'bryan@nebri.us' },
+512 silly resolved     dist:
+512 silly resolved      { integrity: 'sha512-33vhNpo6UdofJJOMFN9050gwy6bWC4T+Aiy5Ud7bPzAFYuSpOYiDnXpi1Rotlhtl+BlQvhN1xixmhdEJssbiCA==',
+512 silly resolved        shasum: '7677f1b8ddad654a4281622b9207d8a4c55a9765',
+512 silly resolved        tarball: 'https://registry.npmjs.org/raspi-board/-/raspi-board-5.3.1.tgz',
+512 silly resolved        fileCount: 7,
+512 silly resolved        unpackedSize: 45740,
+512 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbIDnjCRA9TVsSAnZWagAAW+wP/0akNdO8WJMqmlmvHv44\nQEL2/DLrNmoYrpEHDPnDVI9Fi5RfZZWpThqHxwW+XOYPcNXq/e4bNW5GPVv1\nGxdRnXFa5nXXJymMBkPyWd3NfhuhJOS34mkfp1Se6GvUpJ2JNQt1bGNG+lL4\n8S5cMWDf6rU4oU8kL1muINc8qyfpCX5T4G2puVVyF+S8in359+rDW7Du5tO8\n19QXAQ34O7aBYoAFsOvPratf+xHq1RFa2bZBP48hSvpuM3Ke+EPmHukNZvDH\nmCcCO9XJMzwRGsiuPw3almdeMfaFZx2tf1GCO8denqjyPwbes9w5sHE4viEF\nqrXwwXiIN3f/wy41ScbwB9Fsv/8D8WHMqJnNtAkL9i3T/nk+cFMi49bwY9X6\nF6pPNlzeAYhqC0Hv0NJqSZ/co8TDm+/DimorCdav6ZcLNlMaLPKGaM0nhEtR\n+UOvBqYwSXWSarE6Eu6huLtlKGBZnR+RZauC7ZIkzIxa0f2urxG17p0LoEQO\nZTzXC+ysNwbDboFkQ8K1Y7n2zaoqDRioS+n0j/hUvtlOyZagYhmQXGTCcAke\nZmfLDerV/8xL4xKt8rj2kGwtGwPbkdGNdWzEyUVbX/QdNtdm4CIYzCtsmKAU\nIEu512F78HCZLUao7qDqHd1lnEPKy6m/BhAP5W72d4FfMQjBlfnP/C2o2uEn\nZMHS\r\n=ZRzp\r\n-----END PGP SIGNATURE-----\r\n' },
+512 silly resolved     maintainers: [ [Object] ],
+512 silly resolved     directories: {},
+512 silly resolved     _npmOperationalInternal:
+512 silly resolved      { host: 's3://npm-registry-packages',
+512 silly resolved        tmp: 'tmp/raspi-board_5.3.1_1528838625919_0.30103401215308256' },
+512 silly resolved     _shasum: '7677f1b8ddad654a4281622b9207d8a4c55a9765',
+512 silly resolved     _from: 'raspi-board@^5.0.0',
+512 silly resolved     _resolved: 'https://registry.npmjs.org/raspi-board/-/raspi-board-5.3.1.tgz',
+512 silly resolved     readme: 'ERROR: No README data found!' } ]
+513 info install raspi-board@5.3.1 into /home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral
+514 info installOne raspi-board@5.3.1
+515 verbose node_modules/raspi-serial/node_modules/raspi-peripheral/node_modules/raspi-board unbuild
+516 verbose tar unpack /home/pi/.npm/raspi-board/5.3.1/package.tgz
+517 silly lockFile 14e20417-ipheral-node-modules-raspi-board tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral/node_modules/raspi-board
+518 verbose lock tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral/node_modules/raspi-board /home/pi/.npm/14e20417-ipheral-node-modules-raspi-board.lock
+519 silly lockFile 1b47b23e-pm-raspi-board-5-3-1-package-tgz tar:///home/pi/.npm/raspi-board/5.3.1/package.tgz
+520 verbose lock tar:///home/pi/.npm/raspi-board/5.3.1/package.tgz /home/pi/.npm/1b47b23e-pm-raspi-board-5-3-1-package-tgz.lock
+521 silly gunzTarPerm modes [ '755', '644' ]
+522 silly gunzTarPerm extractEntry package.json
+523 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+524 silly gunzTarPerm extractEntry CHANGELOG.md
+525 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+526 silly gunzTarPerm extractEntry LICENSE
+527 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+528 silly gunzTarPerm extractEntry README.md
+529 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+530 silly gunzTarPerm extractEntry declarations/index.d.ts
+531 silly gunzTarPerm modified mode [ 'declarations/index.d.ts', 438, 420 ]
+532 silly gunzTarPerm extractEntry dist/index.js
+533 silly gunzTarPerm modified mode [ 'dist/index.js', 438, 420 ]
+534 silly gunzTarPerm extractEntry dist/index.js.map
+535 silly gunzTarPerm modified mode [ 'dist/index.js.map', 438, 420 ]
+536 silly lockFile 14e20417-ipheral-node-modules-raspi-board tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral/node_modules/raspi-board
+537 silly lockFile 14e20417-ipheral-node-modules-raspi-board tar:///home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral/node_modules/raspi-board
+538 silly lockFile 1b47b23e-pm-raspi-board-5-3-1-package-tgz tar:///home/pi/.npm/raspi-board/5.3.1/package.tgz
+539 silly lockFile 1b47b23e-pm-raspi-board-5-3-1-package-tgz tar:///home/pi/.npm/raspi-board/5.3.1/package.tgz
+540 http 304 https://registry.npmjs.org/commander
+541 silly registry.get cb [ 304,
+541 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+541 silly registry.get     connection: 'close',
+541 silly registry.get     'set-cookie':
+541 silly registry.get      [ '__cfduid=d3d73bb678ded62f02c0f884ddc1213db1536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+541 silly registry.get     'cf-cache-status': 'HIT',
+541 silly registry.get     'cache-control': 'max-age=300',
+541 silly registry.get     'cf-ray': '4595288e98db8365-BKK',
+541 silly registry.get     etag: '"0f219c231fddab681f192facede64078"',
+541 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+541 silly registry.get     'last-modified': 'Fri, 07 Sep 2018 10:27:24 GMT',
+541 silly registry.get     vary: 'accept-encoding, accept',
+541 silly registry.get     'x-amz-meta-rev': '1313-316bbf3d677daa324728f34e47757c2f',
+541 silly registry.get     server: 'cloudflare' } ]
+542 verbose etag https://registry.npmjs.org/commander from cache
+543 http 304 https://registry.npmjs.org/promirepl
+544 silly registry.get cb [ 304,
+544 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+544 silly registry.get     connection: 'close',
+544 silly registry.get     'set-cookie':
+544 silly registry.get      [ '__cfduid=dd7e2f529eb6f0fa4311eb2ac87ad51b11536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+544 silly registry.get     'cf-cache-status': 'HIT',
+544 silly registry.get     'cache-control': 'max-age=300',
+544 silly registry.get     'cf-ray': '4595288e9ce18389-BKK',
+544 silly registry.get     etag: '"068fac83c636cafc9de013a5380b74ff"',
+544 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+544 silly registry.get     'last-modified': 'Sun, 27 May 2018 12:58:32 GMT',
+544 silly registry.get     vary: 'accept-encoding, accept',
+544 silly registry.get     server: 'cloudflare' } ]
+545 verbose etag https://registry.npmjs.org/promirepl from cache
+546 http 304 https://registry.npmjs.org/prebuild-install
+547 silly registry.get cb [ 304,
+547 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+547 silly registry.get     connection: 'close',
+547 silly registry.get     'set-cookie':
+547 silly registry.get      [ '__cfduid=d751f0fcede1eda0207bfd9176eacd6b81536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+547 silly registry.get     'cf-cache-status': 'HIT',
+547 silly registry.get     'cache-control': 'max-age=300',
+547 silly registry.get     'cf-ray': '4595288e9b2f83b3-BKK',
+547 silly registry.get     etag: '"56e649316ddc3d69242317a76323af7d"',
+547 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+547 silly registry.get     'last-modified': 'Tue, 28 Aug 2018 14:19:16 GMT',
+547 silly registry.get     vary: 'accept-encoding, accept',
+547 silly registry.get     server: 'cloudflare' } ]
+548 verbose etag https://registry.npmjs.org/prebuild-install from cache
+549 http 304 https://registry.npmjs.org/bindings
+550 silly registry.get cb [ 304,
+550 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+550 silly registry.get     connection: 'close',
+550 silly registry.get     'set-cookie':
+550 silly registry.get      [ '__cfduid=dcbd81d02816d61bed05af5c149c0253e1536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+550 silly registry.get     'cf-cache-status': 'HIT',
+550 silly registry.get     'cache-control': 'max-age=300',
+550 silly registry.get     'cf-ray': '4595288e9f90838f-BKK',
+550 silly registry.get     etag: '"032d1e4fd790b7bf3a22d4035271b1a6"',
+550 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+550 silly registry.get     'last-modified': 'Sat, 26 May 2018 18:26:50 GMT',
+550 silly registry.get     vary: 'accept-encoding, accept',
+550 silly registry.get     server: 'cloudflare' } ]
+551 verbose etag https://registry.npmjs.org/bindings from cache
+552 http 304 https://registry.npmjs.org/nan
+553 silly registry.get cb [ 304,
+553 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+553 silly registry.get     connection: 'close',
+553 silly registry.get     'set-cookie':
+553 silly registry.get      [ '__cfduid=dce5efb89b0c31a7cd8e28e79627f512f1536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+553 silly registry.get     'cf-cache-status': 'HIT',
+553 silly registry.get     'cache-control': 'max-age=300',
+553 silly registry.get     'cf-ray': '4595288e9a3b83a7-BKK',
+553 silly registry.get     etag: '"07b67d31eac50b501e4eb4f5b0dcc2f1"',
+553 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+553 silly registry.get     'last-modified': 'Sat, 25 Aug 2018 12:43:49 GMT',
+553 silly registry.get     vary: 'accept-encoding, accept',
+553 silly registry.get     server: 'cloudflare' } ]
+554 verbose etag https://registry.npmjs.org/nan from cache
+555 http 304 https://registry.npmjs.org/safe-buffer
+556 silly registry.get cb [ 304,
+556 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+556 silly registry.get     connection: 'close',
+556 silly registry.get     'set-cookie':
+556 silly registry.get      [ '__cfduid=d5f5432decea123a158363fd2c18e046a1536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+556 silly registry.get     'cf-cache-status': 'HIT',
+556 silly registry.get     'cache-control': 'max-age=300',
+556 silly registry.get     'cf-ray': '4595288eaca28395-BKK',
+556 silly registry.get     etag: '"07ec7479fe6b127e352416b3d45167a8"',
+556 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+556 silly registry.get     'last-modified': 'Fri, 03 Aug 2018 00:39:59 GMT',
+556 silly registry.get     vary: 'accept-encoding, accept',
+556 silly registry.get     server: 'cloudflare' } ]
+557 verbose etag https://registry.npmjs.org/safe-buffer from cache
+558 http 304 https://registry.npmjs.org/prompt-list
+559 silly registry.get cb [ 304,
+559 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+559 silly registry.get     connection: 'close',
+559 silly registry.get     'set-cookie':
+559 silly registry.get      [ '__cfduid=d3d73bb678ded62f02c0f884ddc1213db1536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+559 silly registry.get     'cf-cache-status': 'HIT',
+559 silly registry.get     'cache-control': 'max-age=300',
+559 silly registry.get     'cf-ray': '4595288ea8e08365-BKK',
+559 silly registry.get     etag: '"b509802804880672e83385323486493e"',
+559 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+559 silly registry.get     'last-modified': 'Mon, 28 May 2018 20:11:07 GMT',
+559 silly registry.get     vary: 'accept-encoding, accept',
+559 silly registry.get     server: 'cloudflare' } ]
+560 verbose etag https://registry.npmjs.org/prompt-list from cache
+561 http 304 https://registry.npmjs.org/debug
+562 silly registry.get cb [ 304,
+562 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+562 silly registry.get     connection: 'close',
+562 silly registry.get     'set-cookie':
+562 silly registry.get      [ '__cfduid=d840109e6d4ec9ecb723074b79ac522641536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+562 silly registry.get     'cf-cache-status': 'HIT',
+562 silly registry.get     'cache-control': 'max-age=300',
+562 silly registry.get     'cf-ray': '4595288e9e0883b9-BKK',
+562 silly registry.get     etag: '"519fa9eb4eadccc1cf1b59c83a1bb903"',
+562 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+562 silly registry.get     'last-modified': 'Tue, 11 Sep 2018 23:16:38 GMT',
+562 silly registry.get     vary: 'accept-encoding, accept',
+562 silly registry.get     'x-amz-meta-rev': '893-5fb25e9ddfb923342cf1af9e792c14a2',
+562 silly registry.get     server: 'cloudflare' } ]
+563 verbose etag https://registry.npmjs.org/debug from cache
+564 info preinstall raspi-board@5.3.1
+565 verbose readDependencies using package.json deps
+566 silly addNameRange number 2 { name: 'commander', range: '>=2.13.0 <3.0.0', hasData: true }
+567 silly addNameRange versions [ 'commander',
+567 silly addNameRange   [ '0.0.1',
+567 silly addNameRange     '0.0.3',
+567 silly addNameRange     '0.0.4',
+567 silly addNameRange     '0.0.5',
+567 silly addNameRange     '0.1.0',
+567 silly addNameRange     '0.2.0',
+567 silly addNameRange     '0.2.1',
+567 silly addNameRange     '0.3.0',
+567 silly addNameRange     '0.3.1',
+567 silly addNameRange     '0.3.2',
+567 silly addNameRange     '0.3.3',
+567 silly addNameRange     '0.4.0',
+567 silly addNameRange     '0.4.1',
+567 silly addNameRange     '0.4.2',
+567 silly addNameRange     '0.4.3',
+567 silly addNameRange     '0.5.0',
+567 silly addNameRange     '0.5.1',
+567 silly addNameRange     '0.6.0',
+567 silly addNameRange     '0.6.1',
+567 silly addNameRange     '0.5.2',
+567 silly addNameRange     '1.0.0',
+567 silly addNameRange     '1.0.1',
+567 silly addNameRange     '1.0.2',
+567 silly addNameRange     '1.0.3',
+567 silly addNameRange     '1.0.4',
+567 silly addNameRange     '1.0.5',
+567 silly addNameRange     '1.1.0',
+567 silly addNameRange     '1.1.1',
+567 silly addNameRange     '1.2.0',
+567 silly addNameRange     '1.3.0',
+567 silly addNameRange     '1.3.1',
+567 silly addNameRange     '1.3.2',
+567 silly addNameRange     '2.0.0',
+567 silly addNameRange     '2.1.0',
+567 silly addNameRange     '2.2.0',
+567 silly addNameRange     '2.3.0',
+567 silly addNameRange     '2.4.0',
+567 silly addNameRange     '2.5.0',
+567 silly addNameRange     '2.5.1',
+567 silly addNameRange     '2.6.0',
+567 silly addNameRange     '2.7.0',
+567 silly addNameRange     '2.7.1',
+567 silly addNameRange     '2.8.0',
+567 silly addNameRange     '2.8.1',
+567 silly addNameRange     '2.9.0',
+567 silly addNameRange     '2.10.0',
+567 silly addNameRange     '2.11.0',
+567 silly addNameRange     '2.12.0',
+567 silly addNameRange     '2.12.1',
+567 silly addNameRange     '2.12.2',
+567 silly addNameRange     '2.13.0',
+567 silly addNameRange     '2.14.0',
+567 silly addNameRange     '2.14.1',
+567 silly addNameRange     '2.15.0',
+567 silly addNameRange     '2.15.1',
+567 silly addNameRange     '2.16.0',
+567 silly addNameRange     '2.17.0',
+567 silly addNameRange     '2.17.1',
+567 silly addNameRange     '2.18.0' ] ]
+568 verbose addNamed [ 'commander', '2.18.0' ]
+569 verbose addNamed [ '2.18.0', '2.18.0' ]
+570 silly lockFile 0224667e-commander-2-18-0 commander@2.18.0
+571 verbose lock commander@2.18.0 /home/pi/.npm/0224667e-commander-2-18-0.lock
+572 verbose readDependencies using package.json deps
+573 silly resolved []
+574 verbose about to build /home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral/node_modules/raspi-board
+575 info build /home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral/node_modules/raspi-board
+576 verbose linkStuff [ false,
+576 verbose linkStuff   false,
+576 verbose linkStuff   false,
+576 verbose linkStuff   '/home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral/node_modules' ]
+577 info linkStuff raspi-board@5.3.1
+578 verbose linkBins raspi-board@5.3.1
+579 verbose linkMans raspi-board@5.3.1
+580 verbose rebuildBundles raspi-board@5.3.1
+581 silly addNameRange number 2 { name: 'promirepl', range: '>=1.0.1 <2.0.0', hasData: true }
+582 silly addNameRange versions [ 'promirepl', [ '1.0.1' ] ]
+583 verbose addNamed [ 'promirepl', '1.0.1' ]
+584 verbose addNamed [ '1.0.1', '1.0.1' ]
+585 silly lockFile 8bcfb9e6-promirepl-1-0-1 promirepl@1.0.1
+586 verbose lock promirepl@1.0.1 /home/pi/.npm/8bcfb9e6-promirepl-1-0-1.lock
+587 info install raspi-board@5.3.1
+588 silly addNameRange number 2 { name: 'prebuild-install',
+588 silly addNameRange   range: '>=4.0.0 <5.0.0',
+588 silly addNameRange   hasData: true }
+589 silly addNameRange versions [ 'prebuild-install',
+589 silly addNameRange   [ '1.0.0',
+589 silly addNameRange     '1.0.1',
+589 silly addNameRange     '1.0.2',
+589 silly addNameRange     '1.1.0',
+589 silly addNameRange     '2.0.0',
+589 silly addNameRange     '2.1.0',
+589 silly addNameRange     '2.1.1',
+589 silly addNameRange     '2.1.2',
+589 silly addNameRange     '2.2.0',
+589 silly addNameRange     '2.2.1',
+589 silly addNameRange     '2.2.2',
+589 silly addNameRange     '2.3.0',
+589 silly addNameRange     '2.4.0',
+589 silly addNameRange     '2.4.1',
+589 silly addNameRange     '2.5.0',
+589 silly addNameRange     '2.5.1',
+589 silly addNameRange     '2.5.2',
+589 silly addNameRange     '2.5.3',
+589 silly addNameRange     '3.0.0',
+589 silly addNameRange     '4.0.0',
+589 silly addNameRange     '5.0.0',
+589 silly addNameRange     '5.1.0' ] ]
+590 verbose addNamed [ 'prebuild-install', '4.0.0' ]
+591 verbose addNamed [ '4.0.0', '4.0.0' ]
+592 silly lockFile 85b12fa4-prebuild-install-4-0-0 prebuild-install@4.0.0
+593 verbose lock prebuild-install@4.0.0 /home/pi/.npm/85b12fa4-prebuild-install-4-0-0.lock
+594 silly addNameRange number 2 { name: 'nan', range: '>=2.9.2 <3.0.0', hasData: true }
+595 silly addNameRange versions [ 'nan',
+595 silly addNameRange   [ '0.3.0-wip',
+595 silly addNameRange     '0.3.0-wip2',
+595 silly addNameRange     '0.3.0',
+595 silly addNameRange     '0.3.1',
+595 silly addNameRange     '0.3.2',
+595 silly addNameRange     '0.4.0',
+595 silly addNameRange     '0.4.1',
+595 silly addNameRange     '0.4.2',
+595 silly addNameRange     '0.4.3',
+595 silly addNameRange     '0.4.4',
+595 silly addNameRange     '0.5.0',
+595 silly addNameRange     '0.5.1',
+595 silly addNameRange     '0.5.2',
+595 silly addNameRange     '0.6.0',
+595 silly addNameRange     '0.7.0',
+595 silly addNameRange     '0.7.1',
+595 silly addNameRange     '0.8.0',
+595 silly addNameRange     '1.0.0',
+595 silly addNameRange     '1.1.0',
+595 silly addNameRange     '1.1.1',
+595 silly addNameRange     '1.1.2',
+595 silly addNameRange     '1.2.0',
+595 silly addNameRange     '1.3.0',
+595 silly addNameRange     '1.4.0',
+595 silly addNameRange     '1.4.1',
+595 silly addNameRange     '1.5.0',
+595 silly addNameRange     '1.4.2',
+595 silly addNameRange     '1.4.3',
+595 silly addNameRange     '1.5.1',
+595 silly addNameRange     '1.5.2',
+595 silly addNameRange     '1.6.0',
+595 silly addNameRange     '1.5.3',
+595 silly addNameRange     '1.6.1',
+595 silly addNameRange     '1.6.2',
+595 silly addNameRange     '1.7.0',
+595 silly addNameRange     '1.8.0',
+595 silly addNameRange     '1.8.1',
+595 silly addNameRange     '1.8.2',
+595 silly addNameRange     '1.8.3',
+595 silly addNameRange     '1.8.4',
+595 silly addNameRange     '1.9.0',
+595 silly addNameRange     '2.0.0',
+595 silly addNameRange     '2.0.1',
+595 silly addNameRange     '2.0.2',
+595 silly addNameRange     '2.0.3',
+595 silly addNameRange     '2.0.4',
+595 silly addNameRange     '2.0.5',
+595 silly addNameRange     '2.0.6',
+595 silly addNameRange     '2.0.7',
+595 silly addNameRange     '2.0.8',
+595 silly addNameRange     '2.0.9',
+595 silly addNameRange     '2.1.0',
+595 silly addNameRange     '2.2.0',
+595 silly addNameRange     '2.2.1',
+595 silly addNameRange     '2.3.0',
+595 silly addNameRange     '2.3.1',
+595 silly addNameRange     '2.3.2',
+595 silly addNameRange     '2.3.3',
+595 silly addNameRange     '2.3.4',
+595 silly addNameRange     '2.3.5',
+595 silly addNameRange     '2.4.0',
+595 silly addNameRange     '2.5.0',
+595 silly addNameRange     '2.5.1',
+595 silly addNameRange     '2.6.0',
+595 silly addNameRange     '2.6.1',
+595 silly addNameRange     '2.6.2',
+595 silly addNameRange     '2.7.0',
+595 silly addNameRange     '2.8.0',
+595 silly addNameRange     '2.9.1',
+595 silly addNameRange     '2.9.2',
+595 silly addNameRange     '2.10.0',
+595 silly addNameRange     '2.11.0' ] ]
+596 verbose addNamed [ 'nan', '2.11.0' ]
+597 verbose addNamed [ '2.11.0', '2.11.0' ]
+598 silly lockFile 7bce095f-nan-2-11-0 nan@2.11.0
+599 verbose lock nan@2.11.0 /home/pi/.npm/7bce095f-nan-2-11-0.lock
+600 silly addNameRange number 2 { name: 'safe-buffer', range: '>=5.1.2 <6.0.0', hasData: true }
+601 silly addNameRange versions [ 'safe-buffer',
+601 silly addNameRange   [ '1.0.0',
+601 silly addNameRange     '2.0.0',
+601 silly addNameRange     '3.0.0',
+601 silly addNameRange     '4.0.0',
+601 silly addNameRange     '5.0.0',
+601 silly addNameRange     '5.0.1',
+601 silly addNameRange     '5.1.0',
+601 silly addNameRange     '5.1.1',
+601 silly addNameRange     '5.1.2' ] ]
+602 verbose addNamed [ 'safe-buffer', '5.1.2' ]
+603 verbose addNamed [ '5.1.2', '5.1.2' ]
+604 silly lockFile 11083a0e-safe-buffer-5-1-2 safe-buffer@5.1.2
+605 verbose lock safe-buffer@5.1.2 /home/pi/.npm/11083a0e-safe-buffer-5-1-2.lock
+606 silly addNameRange number 2 { name: 'prompt-list', range: '>=3.2.0 <4.0.0', hasData: true }
+607 silly addNameRange versions [ 'prompt-list',
+607 silly addNameRange   [ '0.1.0',
+607 silly addNameRange     '0.1.1',
+607 silly addNameRange     '0.1.2',
+607 silly addNameRange     '0.2.0',
+607 silly addNameRange     '1.0.0',
+607 silly addNameRange     '2.0.0',
+607 silly addNameRange     '2.0.1',
+607 silly addNameRange     '2.1.0',
+607 silly addNameRange     '2.2.0',
+607 silly addNameRange     '3.0.0',
+607 silly addNameRange     '3.1.0',
+607 silly addNameRange     '3.1.1',
+607 silly addNameRange     '3.1.2',
+607 silly addNameRange     '3.2.0' ] ]
+608 verbose addNamed [ 'prompt-list', '3.2.0' ]
+609 verbose addNamed [ '3.2.0', '3.2.0' ]
+610 silly lockFile 930dee83-prompt-list-3-2-0 prompt-list@3.2.0
+611 verbose lock prompt-list@3.2.0 /home/pi/.npm/930dee83-prompt-list-3-2-0.lock
+612 silly addNameRange number 2 { name: 'debug', range: '>=3.1.0 <4.0.0', hasData: true }
+613 silly addNameRange versions [ 'debug',
+613 silly addNameRange   [ '0.0.1',
+613 silly addNameRange     '0.1.0',
+613 silly addNameRange     '0.2.0',
+613 silly addNameRange     '0.3.0',
+613 silly addNameRange     '0.4.0',
+613 silly addNameRange     '0.4.1',
+613 silly addNameRange     '0.5.0',
+613 silly addNameRange     '0.6.0',
+613 silly addNameRange     '0.7.0',
+613 silly addNameRange     '0.7.1',
+613 silly addNameRange     '0.7.2',
+613 silly addNameRange     '0.7.3',
+613 silly addNameRange     '0.7.4',
+613 silly addNameRange     '0.8.0',
+613 silly addNameRange     '0.8.1',
+613 silly addNameRange     '1.0.0',
+613 silly addNameRange     '1.0.1',
+613 silly addNameRange     '1.0.2',
+613 silly addNameRange     '1.0.3',
+613 silly addNameRange     '1.0.4',
+613 silly addNameRange     '2.0.0',
+613 silly addNameRange     '2.1.0',
+613 silly addNameRange     '2.1.1',
+613 silly addNameRange     '2.1.2',
+613 silly addNameRange     '2.1.3',
+613 silly addNameRange     '2.2.0',
+613 silly addNameRange     '2.3.0',
+613 silly addNameRange     '2.3.1',
+613 silly addNameRange     '2.3.2',
+613 silly addNameRange     '2.3.3',
+613 silly addNameRange     '2.4.0',
+613 silly addNameRange     '2.4.1',
+613 silly addNameRange     '2.4.2',
+613 silly addNameRange     '2.4.3',
+613 silly addNameRange     '2.4.4',
+613 silly addNameRange     '2.4.5',
+613 silly addNameRange     '2.5.0',
+613 silly addNameRange     '2.5.1',
+613 silly addNameRange     '2.5.2',
+613 silly addNameRange     '2.6.0',
+613 silly addNameRange     '2.6.1',
+613 silly addNameRange     '2.6.2',
+613 silly addNameRange     '2.6.3',
+613 silly addNameRange     '2.6.4',
+613 silly addNameRange     '2.6.5',
+613 silly addNameRange     '2.6.6',
+613 silly addNameRange     '2.6.7',
+613 silly addNameRange     '2.6.8',
+613 silly addNameRange     '1.0.5',
+613 silly addNameRange     '3.0.0',
+613 silly addNameRange     '3.0.1',
+613 silly addNameRange     '2.6.9',
+613 silly addNameRange     '3.1.0',
+613 silly addNameRange     '3.2.0',
+613 silly addNameRange     '3.2.1',
+613 silly addNameRange     '3.2.2',
+613 silly addNameRange     '3.2.3',
+613 silly addNameRange     '4.0.0',
+613 silly addNameRange     '3.2.4',
+613 silly addNameRange     '3.2.5',
+613 silly addNameRange     '4.0.1' ] ]
+614 verbose addNamed [ 'debug', '3.2.5' ]
+615 verbose addNamed [ '3.2.5', '3.2.5' ]
+616 silly lockFile b1c2df8e-debug-3-2-5 debug@3.2.5
+617 verbose lock debug@3.2.5 /home/pi/.npm/b1c2df8e-debug-3-2-5.lock
+618 info postinstall raspi-board@5.3.1
+619 verbose about to build /home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral
+620 info build /home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/raspi-peripheral
+621 verbose linkStuff [ false,
+621 verbose linkStuff   false,
+621 verbose linkStuff   false,
+621 verbose linkStuff   '/home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules' ]
+622 info linkStuff raspi-peripheral@2.0.1
+623 verbose linkBins raspi-peripheral@2.0.1
+624 verbose linkMans raspi-peripheral@2.0.1
+625 verbose rebuildBundles raspi-peripheral@2.0.1
+626 verbose rebuildBundles [ 'raspi-board' ]
+627 info install raspi-peripheral@2.0.1
+628 silly lockFile e7c26552-bindings-1-3-0 bindings@1.3.0
+629 silly lockFile e7c26552-bindings-1-3-0 bindings@1.3.0
+630 silly lockFile 0224667e-commander-2-18-0 commander@2.18.0
+631 silly lockFile 0224667e-commander-2-18-0 commander@2.18.0
+632 info postinstall raspi-peripheral@2.0.1
+633 silly lockFile 8bcfb9e6-promirepl-1-0-1 promirepl@1.0.1
+634 silly lockFile 8bcfb9e6-promirepl-1-0-1 promirepl@1.0.1
+635 silly lockFile 46a91646-commander-2-13-0 commander@^2.13.0
+636 silly lockFile 46a91646-commander-2-13-0 commander@^2.13.0
+637 silly lockFile db03ce13-promirepl-1-0-1 promirepl@^1.0.1
+638 silly lockFile db03ce13-promirepl-1-0-1 promirepl@^1.0.1
+639 silly lockFile 85b12fa4-prebuild-install-4-0-0 prebuild-install@4.0.0
+640 silly lockFile 85b12fa4-prebuild-install-4-0-0 prebuild-install@4.0.0
+641 silly lockFile 7bce095f-nan-2-11-0 nan@2.11.0
+642 silly lockFile 7bce095f-nan-2-11-0 nan@2.11.0
+643 silly lockFile 11083a0e-safe-buffer-5-1-2 safe-buffer@5.1.2
+644 silly lockFile 11083a0e-safe-buffer-5-1-2 safe-buffer@5.1.2
+645 silly lockFile 930dee83-prompt-list-3-2-0 prompt-list@3.2.0
+646 silly lockFile 930dee83-prompt-list-3-2-0 prompt-list@3.2.0
+647 silly lockFile b1c2df8e-debug-3-2-5 debug@3.2.5
+648 silly lockFile b1c2df8e-debug-3-2-5 debug@3.2.5
+649 silly lockFile bf48774a-prebuild-install-4-0-0 prebuild-install@^4.0.0
+650 silly lockFile bf48774a-prebuild-install-4-0-0 prebuild-install@^4.0.0
+651 silly lockFile ccc179b8-nan-2-9-2 nan@^2.9.2
+652 silly lockFile ccc179b8-nan-2-9-2 nan@^2.9.2
+653 silly lockFile f5bda6da-safe-buffer-5-1-2 safe-buffer@^5.1.2
+654 silly lockFile f5bda6da-safe-buffer-5-1-2 safe-buffer@^5.1.2
+655 silly lockFile dd2478c1-prompt-list-3-2-0 prompt-list@^3.2.0
+656 silly lockFile dd2478c1-prompt-list-3-2-0 prompt-list@^3.2.0
+657 silly lockFile 3b0d9689-debug-3-1-0 debug@^3.1.0
+658 silly lockFile 3b0d9689-debug-3-1-0 debug@^3.1.0
+659 http 405 https://registry.npmjs.org/serialport/parser-ready
+660 silly registry.get cb [ 405,
+660 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:04 GMT',
+660 silly registry.get     'content-type': 'application/json',
+660 silly registry.get     'content-length': '63',
+660 silly registry.get     connection: 'close',
+660 silly registry.get     'set-cookie':
+660 silly registry.get      [ '__cfduid=dfaa1862afc659763e425b4548cda02811536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+660 silly registry.get     allow: 'PUT',
+660 silly registry.get     'cf-ray': '4595288ea83483bf-BKK',
+660 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+660 silly registry.get     vary: 'Accept-Encoding',
+660 silly registry.get     server: 'cloudflare' } ]
+661 silly lockFile f757c8a6-serialport-parser-ready-1-0-5 serialport/parser-ready@^1.0.5
+662 silly lockFile f757c8a6-serialport-parser-ready-1-0-5 serialport/parser-ready@^1.0.5
+663 verbose about to build /home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/serialport
+664 verbose node_modules/raspi-serial/node_modules/serialport unbuild
+665 info preuninstall serialport@6.2.2
+666 info uninstall serialport@6.2.2
+667 http 405 https://registry.npmjs.org/serialport/parser-regex
+668 silly registry.get cb [ 405,
+668 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:05 GMT',
+668 silly registry.get     'content-type': 'application/json',
+668 silly registry.get     'content-length': '63',
+668 silly registry.get     connection: 'close',
+668 silly registry.get     'set-cookie':
+668 silly registry.get      [ '__cfduid=dce5efb89b0c31a7cd8e28e79627f512f1536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+668 silly registry.get     allow: 'PUT',
+668 silly registry.get     'cf-ray': '4595288eaa4483a7-BKK',
+668 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+668 silly registry.get     vary: 'Accept-Encoding',
+668 silly registry.get     server: 'cloudflare' } ]
+669 verbose false,/home/pi/uav-rpi-node/node_modules,/home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules unbuild serialport@6.2.2
+670 verbose /home/pi/uav-rpi-node/node_modules/raspi-serial/node_modules/.bin,[object Object] binRoot
+671 http 405 https://registry.npmjs.org/serialport/parser-readline
+672 silly registry.get cb [ 405,
+672 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:05 GMT',
+672 silly registry.get     'content-type': 'application/json',
+672 silly registry.get     'content-length': '63',
+672 silly registry.get     connection: 'close',
+672 silly registry.get     'set-cookie':
+672 silly registry.get      [ '__cfduid=de2bff950122a1e62a8dd220075fbcc191536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+672 silly registry.get     allow: 'PUT',
+672 silly registry.get     'cf-ray': '4595288ead5e8371-BKK',
+672 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+672 silly registry.get     vary: 'Accept-Encoding',
+672 silly registry.get     server: 'cloudflare' } ]
+673 info postuninstall serialport@6.2.2
+674 http 405 https://registry.npmjs.org/serialport/parser-cctalk
+675 silly registry.get cb [ 405,
+675 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:05 GMT',
+675 silly registry.get     'content-type': 'application/json',
+675 silly registry.get     'content-length': '63',
+675 silly registry.get     connection: 'close',
+675 silly registry.get     'set-cookie':
+675 silly registry.get      [ '__cfduid=d61315712169019d35c73710a081616b71536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+675 silly registry.get     allow: 'PUT',
+675 silly registry.get     'cf-ray': '4595288ebb1e83a1-BKK',
+675 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+675 silly registry.get     vary: 'Accept-Encoding',
+675 silly registry.get     server: 'cloudflare' } ]
+676 silly lockFile 470fe212-serialport-parser-regex-1-0-5 serialport/parser-regex@^1.0.5
+677 silly lockFile 470fe212-serialport-parser-regex-1-0-5 serialport/parser-regex@^1.0.5
+678 silly lockFile 77d83616-serialport-parser-readline-1-0-5 serialport/parser-readline@^1.0.5
+679 silly lockFile 77d83616-serialport-parser-readline-1-0-5 serialport/parser-readline@^1.0.5
+680 silly lockFile 61a13812-serialport-parser-cctalk-1-0-5 serialport/parser-cctalk@^1.0.5
+681 silly lockFile 61a13812-serialport-parser-cctalk-1-0-5 serialport/parser-cctalk@^1.0.5
+682 verbose about to build /home/pi/uav-rpi-node/node_modules/raspi-serial
+683 verbose node_modules/raspi-serial unbuild
+684 info preuninstall raspi-serial@5.0.0
+685 info uninstall raspi-serial@5.0.0
+686 verbose true,/home/pi/uav-rpi-node/node_modules,/home/pi/uav-rpi-node/node_modules unbuild raspi-serial@5.0.0
+687 info postuninstall raspi-serial@5.0.0
+688 http 405 https://registry.npmjs.org/serialport/parser-delimiter
+689 silly registry.get cb [ 405,
+689 silly registry.get   { date: 'Wed, 12 Sep 2018 20:35:05 GMT',
+689 silly registry.get     'content-type': 'application/json',
+689 silly registry.get     'content-length': '63',
+689 silly registry.get     connection: 'close',
+689 silly registry.get     'set-cookie':
+689 silly registry.get      [ '__cfduid=d271df353920263d8dedcca417626964a1536784504; expires=Thu, 12-Sep-19 20:35:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+689 silly registry.get     allow: 'PUT',
+689 silly registry.get     'cf-ray': '4595288e9e3b8377-BKK',
+689 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+689 silly registry.get     vary: 'Accept-Encoding',
+689 silly registry.get     server: 'cloudflare' } ]
+690 silly lockFile 9e00658e-erialport-parser-delimiter-1-0-5 serialport/parser-delimiter@^1.0.5
+691 silly lockFile 9e00658e-erialport-parser-delimiter-1-0-5 serialport/parser-delimiter@^1.0.5
+692 error Error: Method Not Allowed
+692 error     at errorResponse (/usr/share/npm/lib/cache/add-named.js:260:10)
+692 error     at /usr/share/npm/lib/cache/add-named.js:203:12
+692 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+692 error     at FSReqWrap.oncomplete (fs.js:135:15)
+693 error If you need help, you may report this *entire* log,
+693 error including the npm and node versions, at:
+693 error     <http://github.com/npm/npm/issues>
+694 error System Linux 4.14.50-v7+
+695 error command "/usr/bin/node" "/usr/bin/npm" "install" "raspi-serial"
+696 error cwd /home/pi/uav-rpi-node
+697 error node -v v8.11.1
+698 error npm -v 1.4.21
+699 error code E405
+700 verbose exit [ 1, true ]
